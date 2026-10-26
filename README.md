@@ -541,3 +541,15 @@ HOST=0.0.0.0 npm run start
 ---
 
 > **Da intenção à compra, com autonomia e com segurança.**
+
+---
+
+## Equipe
+
+Desenvolvido pela equipe **Fora Do Eixo** em 2026 para o hackathon da **Avanade**, com desafio proposto pela **Pague Menos**.
+
+| Integrante | Papel |
+|---|---|
+| **Yasmin Lopes** | Engenheira de Software |
+| **Patrícia Alcantara** | Designer UX/UI |
+| **Erick Bruno** | Analista de negócio |
