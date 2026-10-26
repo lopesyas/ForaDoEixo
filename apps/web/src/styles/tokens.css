@@ -1,0 +1,62 @@
+/*
+ * Fonte da verdade do design. Contraste verificado em src/styles/contrast.test.ts.
+ * Regras: texto >= 18px, alvos de toque >= 48px, contraste >= 4,5:1 (WCAG 2.2 AA).
+ */
+:root {
+  --text-scale: 1;
+
+  --color-bg: #ffffff;
+  --color-page-bg: #f2f2f2;
+  --color-navy: #00147a;
+  --color-on-navy: #ffffff;
+  --color-offer: #c8102e;
+  --color-slot: #e4e7ef;
+  --color-surface: #f2f5fc;
+  --color-text: #1b2433;
+  --color-primary: #0227cf; /* azul da marca, amostrado do material de identidade */
+  --color-on-primary: #ffffff;
+  --color-brand-accent: #ff3c57; /* coral do logo: só decorativo, não serve para texto */
+  --color-border: #5a6a86;
+  --color-focus: #ff8c00;
+
+  --color-success: #1e7a3a;
+  --color-success-bg: #e7f5ec;
+  --color-warning: #8a5a00;
+  --color-warning-bg: #fff4e5;
+  --color-danger: #a4161a;
+  --color-danger-bg: #fdecec;
+
+  --font-base: 1.125rem; /* 18px na escala padrão */
+  --font-title: 1.75rem;
+  --font-small: 1rem;
+
+  --target-min: 3rem; /* 48px */
+  --button-height: 3.5rem; /* 56px */
+  --space-1: 0.5rem;
+  --space-2: 1rem;
+  --space-3: 1.5rem;
+  --radius: 1rem;
+  --radius-btn: 1.75rem; /* botões arredondados, como no site */
+}
+
+/* Alto contraste: escolha do usuário, lembrada entre visitas */
+:root[data-contrast='high'] {
+  --color-bg: #000000;
+  --color-page-bg: #000000;
+  --color-navy: #000000;
+  --color-on-navy: #ffffff;
+  --color-offer: #ff9aa8;
+  --color-slot: #1a1a1a;
+  --color-surface: #111111;
+  --color-text: #ffffff;
+  --color-primary: #ffd400;
+  --color-on-primary: #000000;
+  --color-border: #ffffff;
+  --color-focus: #00e5ff;
+  --color-success: #7dff9b;
+  --color-success-bg: #0a2a14;
+  --color-warning: #ffd27a;
+  --color-warning-bg: #2a1d00;
+  --color-danger: #ff9a9a;
+  --color-danger-bg: #2a0000;
+}
