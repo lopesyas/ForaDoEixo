@@ -1,0 +1,3277 @@
+{
+  "generatedFrom": "Anvisa — Dados abertos: TA_CONSULTA_COSMETICOS",
+  "generatedAt": "2026-10-24",
+  "note": "Nome e fabricante vêm do cadastro público. Preço, quantidade e estoque são SIMULADOS para a demonstração.",
+  "stats": {
+    "lidas": 1206757,
+    "malformadas": 0,
+    "ativas": 672550,
+    "classificadas": 219813
+  },
+  "products": [
+    {
+      "id": "cos-250000107989653",
+      "name": "Moai Hidratante Facial Pele Seca Ou Normal",
+      "company": "Moai",
+      "category": "hidratante_facial",
+      "skinTypes": [
+        "seca",
+        "normal"
+      ],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "250000107989653",
+        "registration": "216680043"
+      },
+      "simulated": {
+        "priceCents": 4490,
+        "unitQty": 100,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-250000258519818",
+      "name": "Locao Hidratante Facial 'Oil Free' Terra Azul",
+      "company": "Bio Products",
+      "category": "hidratante_facial",
+      "skinTypes": [
+        "oleosa"
+      ],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "250000258519818",
+        "registration": "213400151"
+      },
+      "simulated": {
+        "priceCents": 2690,
+        "unitQty": 100,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351008856201492",
+      "name": "Umiditá Rosto FPS 25 Proteção Solar Uva/uvb Creme Gel Hidratante para Peles Sensíveis",
+      "company": "Mappel Embalagens",
+      "category": "hidratante_facial",
+      "skinTypes": [
+        "sensivel"
+      ],
+      "spf": 25,
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351008856201492",
+        "registration": "226070094"
+      },
+      "simulated": {
+        "priceCents": 2690,
+        "unitQty": 50,
+        "unitLabel": "g",
+        "inStock": false
+      }
+    },
+    {
+      "id": "cos-25351009285202128",
+      "name": "Hidratante Facial Pele Oleosa Natura Faces",
+      "company": "Natura",
+      "category": "hidratante_facial",
+      "skinTypes": [
+        "oleosa"
+      ],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351009285202128",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 6690,
+        "unitQty": 40,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351009312202162",
+      "name": "Hidratante Facial Pele Seca Natura Faces",
+      "company": "Natura",
+      "category": "hidratante_facial",
+      "skinTypes": [
+        "seca"
+      ],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351009312202162",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 3890,
+        "unitQty": 60,
+        "unitLabel": "g",
+        "inStock": false
+      }
+    },
+    {
+      "id": "cos-25351022271202523",
+      "name": "Hidratante Facial Peles Oleosas Lev Alquimia Natural",
+      "company": "Argila",
+      "category": "hidratante_facial",
+      "skinTypes": [
+        "oleosa"
+      ],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351022271202523",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 5890,
+        "unitQty": 50,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351056605200861",
+      "name": "Neutrogena® Oil Free Gel Creme Hidratante Facial para Pele Mista a Oleosa",
+      "company": "Kenvue",
+      "category": "hidratante_facial",
+      "skinTypes": [
+        "mista",
+        "oleosa"
+      ],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351056605200861",
+        "registration": "200920886"
+      },
+      "simulated": {
+        "priceCents": 2490,
+        "unitQty": 60,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351058795202633",
+      "name": "Higiporo Acqua Gel Hidratante Facial Pele Mista a Oleosa",
+      "company": "Cria Sim",
+      "category": "hidratante_facial",
+      "skinTypes": [
+        "mista",
+        "oleosa"
+      ],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351058795202633",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 4290,
+        "unitQty": 40,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351058819202654",
+      "name": "Higiporo Acqua Gel Hidratante Facial Pele Sensível",
+      "company": "Cria Sim",
+      "category": "hidratante_facial",
+      "skinTypes": [
+        "sensivel"
+      ],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351058819202654",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 5690,
+        "unitQty": 40,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351064123202586",
+      "name": "Creme Facial Hidratante Pele Mista Gotazen",
+      "company": "Twd",
+      "category": "hidratante_facial",
+      "skinTypes": [
+        "mista"
+      ],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351064123202586",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 3690,
+        "unitQty": 50,
+        "unitLabel": "g",
+        "inStock": false
+      }
+    },
+    {
+      "id": "cos-25351064671202514",
+      "name": "Creme Facial Hidratante Pele Normal Gotazen",
+      "company": "Twd",
+      "category": "hidratante_facial",
+      "skinTypes": [
+        "normal"
+      ],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351064671202514",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 4990,
+        "unitQty": 100,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351080130202525",
+      "name": "Hidratante Facial Pele Seca Nomma",
+      "company": "Natu Belly",
+      "category": "hidratante_facial",
+      "skinTypes": [
+        "seca"
+      ],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351080130202525",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 1290,
+        "unitQty": 100,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351115752202077",
+      "name": "Sérum Facial Hidratante Peles Mistas a Oleosas Almaúnica Biocosméticos",
+      "company": "Dermavita Farmacêuticos",
+      "category": "hidratante_facial",
+      "skinTypes": [
+        "mista",
+        "oleosa"
+      ],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351115752202077",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 2690,
+        "unitQty": 60,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351145866202637",
+      "name": "Hidratante Facial para Pele Oleosa Getme Beauty - Get-b",
+      "company": "Agape",
+      "category": "hidratante_facial",
+      "skinTypes": [
+        "oleosa"
+      ],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351145866202637",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 1390,
+        "unitQty": 100,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351157079202557",
+      "name": "Gel Facial Hidratante Pele Oleosa Klein Kosmetik",
+      "company": "Veneza",
+      "category": "hidratante_facial",
+      "skinTypes": [
+        "oleosa"
+      ],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351157079202557",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 5690,
+        "unitQty": 40,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351196106202515",
+      "name": "Hidratante Facial Pele Seca - Normal Tropicália",
+      "company": "Scienceuticals & Inovacao em",
+      "category": "hidratante_facial",
+      "skinTypes": [
+        "seca",
+        "normal"
+      ],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351196106202515",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 2290,
+        "unitQty": 50,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351211417202511",
+      "name": "Kiffer Hidratante Facial para Peles Mistas e Oleosas",
+      "company": "Dahuer Laboratório",
+      "category": "hidratante_facial",
+      "skinTypes": [
+        "mista",
+        "oleosa"
+      ],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351211417202511",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 4090,
+        "unitQty": 60,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351230790202563",
+      "name": "Creme Hidratante Facial Peles Delicadas Lahbe",
+      "company": "Alavis Laboratorios",
+      "category": "hidratante_facial",
+      "skinTypes": [
+        "sensivel"
+      ],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351230790202563",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 1290,
+        "unitQty": 50,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351233588202241",
+      "name": "Hidratante Facial Pele Oleosa Belamor Cosméticos",
+      "company": "Pack For You Comesticos",
+      "category": "hidratante_facial",
+      "skinTypes": [
+        "oleosa"
+      ],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351233588202241",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 2590,
+        "unitQty": 50,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351233610201876",
+      "name": "Sensi Loção Hidratante Facial Pele Normal a Seca Jequiti",
+      "company": "Athenas Tercerização",
+      "category": "hidratante_facial",
+      "skinTypes": [
+        "normal",
+        "seca"
+      ],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351233610201876",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 1390,
+        "unitQty": 40,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351268244202333",
+      "name": "Creme Hidratante Facial para Peles Secas - Vigora Derm",
+      "company": "Agape",
+      "category": "hidratante_facial",
+      "skinTypes": [
+        "seca"
+      ],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351268244202333",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 1390,
+        "unitQty": 100,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351312418202060",
+      "name": "Hidratante Facial Pele Oleosa Tropicália",
+      "company": "Scienceuticals & Inovacao em",
+      "category": "hidratante_facial",
+      "skinTypes": [
+        "oleosa"
+      ],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351312418202060",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 2190,
+        "unitQty": 60,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351368966202397",
+      "name": "Creme Hidratante Facial Noturno Pele Normal a Seca Daaz Dermo",
+      "company": "Laboratorio Industrial Farmacêutico Lifar",
+      "category": "hidratante_facial",
+      "skinTypes": [
+        "normal",
+        "seca"
+      ],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351368966202397",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 1490,
+        "unitQty": 40,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351385253201764",
+      "name": "Inoar Hidratante Rosto Pele Mista a Oleosa",
+      "company": "Nova Cedral",
+      "category": "hidratante_facial",
+      "skinTypes": [
+        "mista",
+        "oleosa"
+      ],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351385253201764",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 1890,
+        "unitQty": 100,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351447339202401",
+      "name": "Loção Hidratante Corporal e Facial Pele Seca Ceridrat",
+      "company": "Yuzi",
+      "category": "hidratante_facial",
+      "skinTypes": [
+        "seca"
+      ],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351447339202401",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 3190,
+        "unitQty": 50,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351535679200936",
+      "name": "Hidratante Facial FPS 15 Pele Normal a Seca Revitart Faces",
+      "company": "Pasteur Cosmiatria",
+      "category": "hidratante_facial",
+      "skinTypes": [
+        "normal",
+        "seca"
+      ],
+      "spf": 15,
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351535679200936",
+        "registration": "214850198"
+      },
+      "simulated": {
+        "priceCents": 2290,
+        "unitQty": 60,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351642453202019",
+      "name": "Hidratante Facial Vitamin C - Oil Free Kyràv By Garbin",
+      "company": "Garbin",
+      "category": "hidratante_facial",
+      "skinTypes": [
+        "oleosa"
+      ],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351642453202019",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 4390,
+        "unitQty": 50,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351675976202114",
+      "name": "Hidratante Facial Peles Mistas a Secas Apricot",
+      "company": "Vanity Perfumaria Limpeza",
+      "category": "hidratante_facial",
+      "skinTypes": [
+        "mista",
+        "seca"
+      ],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351675976202114",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 4790,
+        "unitQty": 100,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351737353202061",
+      "name": "Gel Facial Hidratante Peles Oleosas Loucas Por Maquiagens",
+      "company": "Veneza",
+      "category": "hidratante_facial",
+      "skinTypes": [
+        "oleosa"
+      ],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351737353202061",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 5890,
+        "unitQty": 100,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351921557202160",
+      "name": "Creme Hidratante Facial para Pele Oleosa e Sensível Clinical Cosmetic Vida",
+      "company": "Lagune Cosmetics",
+      "category": "hidratante_facial",
+      "skinTypes": [
+        "oleosa",
+        "sensivel"
+      ],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351921557202160",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 2790,
+        "unitQty": 60,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-250000134069870",
+      "name": "Leite Hidratante Corporal Yuan Pele Oleosa",
+      "company": "Labofitto",
+      "category": "hidratante_corporal",
+      "skinTypes": [
+        "oleosa"
+      ],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "250000134069870",
+        "registration": "225320026"
+      },
+      "simulated": {
+        "priceCents": 1790,
+        "unitQty": 200,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-250000134079832",
+      "name": "Leite Hidratante Corporal Yuan Pele Normal",
+      "company": "Labofitto",
+      "category": "hidratante_corporal",
+      "skinTypes": [
+        "normal"
+      ],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "250000134079832",
+        "registration": "225320024"
+      },
+      "simulated": {
+        "priceCents": 2090,
+        "unitQty": 400,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-250000317979841",
+      "name": "Locao Hidratante Corpo Trianae Pele Seca",
+      "company": "Lipson",
+      "category": "hidratante_corporal",
+      "skinTypes": [
+        "seca"
+      ],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "250000317979841",
+        "registration": "212391690"
+      },
+      "simulated": {
+        "priceCents": 990,
+        "unitQty": 400,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351033494202354",
+      "name": "Herdora Pele Leve Hidratante Corporal Pele Delicada",
+      "company": "Herdora Limpeza",
+      "category": "hidratante_corporal",
+      "skinTypes": [
+        "sensivel"
+      ],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351033494202354",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 4790,
+        "unitQty": 400,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351033553202394",
+      "name": "Herdora Pele Leve Hidratante Corporal Pele Extra Seca",
+      "company": "Herdora Limpeza",
+      "category": "hidratante_corporal",
+      "skinTypes": [
+        "seca"
+      ],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351033553202394",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 2890,
+        "unitQty": 400,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351035341201965",
+      "name": "Loção Hidratante Corporal Pele Extra Seca Tassie",
+      "company": "Agimus",
+      "category": "hidratante_corporal",
+      "skinTypes": [
+        "seca"
+      ],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351035341201965",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 1090,
+        "unitQty": 200,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351062955201910",
+      "name": "Cuide-se Bem Creme Hidratante para Mãos e Peles Sensíveis Acalma",
+      "company": "Botica Comercial Farmaceutica",
+      "category": "hidratante_corporal",
+      "skinTypes": [
+        "sensivel"
+      ],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351062955201910",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 1490,
+        "unitQty": 200,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351192507202598",
+      "name": "Hidratante Corporal para Pele Oleosa Cuidado Diário Ek Cosméticos",
+      "company": "Cosmoética",
+      "category": "hidratante_corporal",
+      "skinTypes": [
+        "oleosa"
+      ],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351192507202598",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 3990,
+        "unitQty": 400,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351201927202220",
+      "name": "Hidratante Corporal Pele Seca Plantê",
+      "company": "Pack For You Comesticos",
+      "category": "hidratante_corporal",
+      "skinTypes": [
+        "seca"
+      ],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351201927202220",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 1090,
+        "unitQty": 500,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351268000202199",
+      "name": "Creme Hidratante Corporal Pele Seca e Extra Seca Tracta",
+      "company": "Laboratorio Farmaervas",
+      "category": "hidratante_corporal",
+      "skinTypes": [
+        "seca"
+      ],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351268000202199",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 1290,
+        "unitQty": 500,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351447323202490",
+      "name": "Creme Hidratante Corporal Pele Seca Ceridrat",
+      "company": "Yuzi",
+      "category": "hidratante_corporal",
+      "skinTypes": [
+        "seca"
+      ],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351447323202490",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 990,
+        "unitQty": 400,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351491402201971",
+      "name": "Hidratante Oil Free Mãos e Pés Podal Care",
+      "company": "Tuon",
+      "category": "hidratante_corporal",
+      "skinTypes": [
+        "oleosa"
+      ],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351491402201971",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 3090,
+        "unitQty": 200,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351883329202346",
+      "name": "Hidratante Corporal para Pele Extra Seca",
+      "company": "Essence",
+      "category": "hidratante_corporal",
+      "skinTypes": [
+        "seca"
+      ],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351883329202346",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 4790,
+        "unitQty": 400,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351883390202393",
+      "name": "Hidratante Corporal para Pele Seca",
+      "company": "Essence",
+      "category": "hidratante_corporal",
+      "skinTypes": [
+        "seca"
+      ],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351883390202393",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 3090,
+        "unitQty": 500,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351023627202031",
+      "name": "Foto Care Protetor Solar para Peles Sensíveis FPS 30 - UVA 13 Oncosmetic",
+      "company": "Skin Lab",
+      "category": "protetor_solar",
+      "skinTypes": [
+        "sensivel"
+      ],
+      "spf": 30,
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351023627202031",
+        "registration": "248840014"
+      },
+      "simulated": {
+        "priceCents": 2190,
+        "unitQty": 50,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351051733202196",
+      "name": "Nivea Sun Babies & Kids Pele Sensível Protetor Solar FPS 60",
+      "company": "Beiersdorf",
+      "category": "protetor_solar",
+      "skinTypes": [
+        "sensivel"
+      ],
+      "spf": 60,
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351051733202196",
+        "registration": "227210764"
+      },
+      "simulated": {
+        "priceCents": 2590,
+        "unitQty": 120,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351091615202625",
+      "name": "Adcos Protetor Solar Stick FPS 80 Pele Mista à Seca Cor 6.0 Bronze",
+      "company": "Avlfm",
+      "category": "protetor_solar",
+      "skinTypes": [
+        "mista",
+        "seca"
+      ],
+      "spf": 80,
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351091615202625",
+        "registration": "220280454"
+      },
+      "simulated": {
+        "priceCents": 8890,
+        "unitQty": 120,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351118038202464",
+      "name": "Protetor Solar FPS 30 Sun Oil Free Affinity",
+      "company": "Le Cosmetique Perfumaria",
+      "category": "protetor_solar",
+      "skinTypes": [
+        "oleosa"
+      ],
+      "spf": 30,
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351118038202464",
+        "registration": "232130035"
+      },
+      "simulated": {
+        "priceCents": 3690,
+        "unitQty": 60,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351119378202593",
+      "name": "Routine Dermo Protetor Solar Facial Fluido FPS 70 Pele Mista e Oleosa Hinode",
+      "company": "Larru`s",
+      "category": "protetor_solar",
+      "skinTypes": [
+        "mista",
+        "oleosa"
+      ],
+      "spf": 70,
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351119378202593",
+        "registration": "203370320"
+      },
+      "simulated": {
+        "priceCents": 5590,
+        "unitQty": 60,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351155063201751",
+      "name": "Creme Facial com Filtro Solar e Vitamina e Pele Normal a Seca - Sèhven",
+      "company": "Arizzo",
+      "category": "protetor_solar",
+      "skinTypes": [
+        "normal",
+        "seca"
+      ],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351155063201751",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 7590,
+        "unitQty": 60,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351225761201402",
+      "name": "Protetor Solar Facial FPS 30 Pele Normal Seca Red Apple",
+      "company": "Cosinter Internacional",
+      "category": "protetor_solar",
+      "skinTypes": [
+        "normal",
+        "seca"
+      ],
+      "spf": 30,
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351225761201402",
+        "registration": "201900178"
+      },
+      "simulated": {
+        "priceCents": 2090,
+        "unitQty": 60,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351227076201940",
+      "name": "Nivea Sun Beauty Expert Protetor Solar Facial Controle de Oleosidade Pele Oleosa FPS 50",
+      "company": "Beiersdorf",
+      "category": "protetor_solar",
+      "skinTypes": [
+        "oleosa"
+      ],
+      "spf": 50,
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351227076201940",
+        "registration": "227210708"
+      },
+      "simulated": {
+        "priceCents": 2290,
+        "unitQty": 120,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351240837202505",
+      "name": "Adcos Protetor Solar Stick FPS 80 Pele Mista a Oleosa Cor 7.0 Pecan",
+      "company": "Avlfm",
+      "category": "protetor_solar",
+      "skinTypes": [
+        "mista",
+        "oleosa"
+      ],
+      "spf": 80,
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351240837202505",
+        "registration": "220280443"
+      },
+      "simulated": {
+        "priceCents": 5190,
+        "unitQty": 120,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351259567201776",
+      "name": "Creme Facial Vitamina e Filtro Solar Pele Normal a Oleosa Séhven",
+      "company": "Arizzo",
+      "category": "protetor_solar",
+      "skinTypes": [
+        "normal",
+        "oleosa"
+      ],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351259567201776",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 3190,
+        "unitQty": 60,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351410857201731",
+      "name": "Filtro Solar FPS 50 Facial Oil Free",
+      "company": "Blend",
+      "category": "protetor_solar",
+      "skinTypes": [
+        "oleosa"
+      ],
+      "spf": 50,
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351410857201731",
+        "registration": "242540012"
+      },
+      "simulated": {
+        "priceCents": 3690,
+        "unitQty": 50,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351448317202450",
+      "name": "Natura Protetor Solar Facial FPS 50 Pele Mista a Oleosa",
+      "company": "Natura",
+      "category": "protetor_solar",
+      "skinTypes": [
+        "mista",
+        "oleosa"
+      ],
+      "spf": 50,
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351448317202450",
+        "registration": "205671589"
+      },
+      "simulated": {
+        "priceCents": 1990,
+        "unitQty": 60,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351457035202443",
+      "name": "Natura Protetor Solar Facial FPS 70 Pele Mista a Oleosa",
+      "company": "Natura",
+      "category": "protetor_solar",
+      "skinTypes": [
+        "mista",
+        "oleosa"
+      ],
+      "spf": 70,
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351457035202443",
+        "registration": "205671586"
+      },
+      "simulated": {
+        "priceCents": 5990,
+        "unitQty": 60,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351519535201757",
+      "name": "Protetor Solar Facial FPS 30 Oil Free - Revitart Solar",
+      "company": "Pasteur Cosmiatria",
+      "category": "protetor_solar",
+      "skinTypes": [
+        "oleosa"
+      ],
+      "spf": 30,
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351519535201757",
+        "registration": "214850348"
+      },
+      "simulated": {
+        "priceCents": 4590,
+        "unitQty": 50,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351945195202101",
+      "name": "Protetor Solar Facial FPS 30 Pele Mista Ou Seca - Hérbia",
+      "company": "Natural D´gaia",
+      "category": "protetor_solar",
+      "skinTypes": [
+        "mista",
+        "seca"
+      ],
+      "spf": 30,
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351945195202101",
+        "registration": "241580040"
+      },
+      "simulated": {
+        "priceCents": 4690,
+        "unitQty": 120,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351953036202171",
+      "name": "Protetor Solar Facial FPS 30 Pele Oleosa - Hérbia",
+      "company": "Natural D´gaia",
+      "category": "protetor_solar",
+      "skinTypes": [
+        "oleosa"
+      ],
+      "spf": 30,
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351953036202171",
+        "registration": "241580041"
+      },
+      "simulated": {
+        "priceCents": 4890,
+        "unitQty": 120,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-2502502077297",
+      "name": "Shampoo Nutry Shine Raizes Oleosas & Pontas Secas",
+      "company": "Osvaldo Jacinto Pontes Filho",
+      "category": "shampoo",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "2502502077297",
+        "registration": "223980025"
+      },
+      "simulated": {
+        "priceCents": 1190,
+        "unitQty": 400,
+        "unitLabel": "ml",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351048534202613",
+      "name": "Shampoo Home Care Óleo de UVA - Encaracoladus Profissional",
+      "company": "Field Profissional",
+      "category": "shampoo",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351048534202613",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 790,
+        "unitQty": 250,
+        "unitLabel": "ml",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351072275202633",
+      "name": "Shampoo Cronograma de Nutricao La Vem Ela",
+      "company": "Chams",
+      "category": "shampoo",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351072275202633",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 2490,
+        "unitQty": 325,
+        "unitLabel": "ml",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351080685202658",
+      "name": "Shampoo Hidratante de Arroz Lavrà Beauty",
+      "company": "M V S Maricato",
+      "category": "shampoo",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351080685202658",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 1390,
+        "unitQty": 250,
+        "unitLabel": "ml",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351095959202107",
+      "name": "Shampoo Sólido Hidratação Avocado",
+      "company": "Argila",
+      "category": "shampoo",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351095959202107",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 1190,
+        "unitQty": 250,
+        "unitLabel": "ml",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351096339202519",
+      "name": "Shampoo Selagem Capilar Maycrene",
+      "company": "W R Soares",
+      "category": "shampoo",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351096339202519",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 890,
+        "unitQty": 400,
+        "unitLabel": "ml",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351117135201972",
+      "name": "Shampoo Pós-química Ceci Liss Profissional",
+      "company": "Impacta",
+      "category": "shampoo",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351117135201972",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 890,
+        "unitQty": 250,
+        "unitLabel": "ml",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351175821202514",
+      "name": "Shampoo Ritual da Rainha Império Cosméticos",
+      "company": "Cosmoética",
+      "category": "shampoo",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351175821202514",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 2890,
+        "unitQty": 400,
+        "unitLabel": "ml",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351181136202357",
+      "name": "Shampoo Pré Tratamento Beauty Mixx Professional",
+      "company": "Alquiminas",
+      "category": "shampoo",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351181136202357",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 1890,
+        "unitQty": 250,
+        "unitLabel": "ml",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351375440202282",
+      "name": "Toctus Vivaz Shampoo Aromacqua",
+      "company": "Natureza Ativa",
+      "category": "shampoo",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351375440202282",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 990,
+        "unitQty": 250,
+        "unitLabel": "ml",
+        "inStock": false
+      }
+    },
+    {
+      "id": "cos-25351453333201617",
+      "name": "Shampoo Sublime Iker",
+      "company": "Paty",
+      "category": "shampoo",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351453333201617",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 2490,
+        "unitQty": 325,
+        "unitLabel": "ml",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351480829201712",
+      "name": "Chihtsai Joy Scalp Refreshing Shampoo",
+      "company": "Belle Lee",
+      "category": "shampoo",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351480829201712",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 1790,
+        "unitQty": 400,
+        "unitLabel": "ml",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351037699202147",
+      "name": "Condicionador Bio Vitally Oil Cachos",
+      "company": "La Maison Limpeza",
+      "category": "condicionador",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351037699202147",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 1090,
+        "unitQty": 325,
+        "unitLabel": "ml",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351057755202674",
+      "name": "Pantene Pro-v Diamond Glow Condicionador",
+      "company": "Procter & Gamble",
+      "category": "condicionador",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351057755202674",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 1790,
+        "unitQty": 325,
+        "unitLabel": "ml",
+        "inStock": false
+      }
+    },
+    {
+      "id": "cos-25351112690201475",
+      "name": "Essenza Profissional Condicionador Alisados e Relaxados",
+      "company": "Ákua",
+      "category": "condicionador",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351112690201475",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 790,
+        "unitQty": 400,
+        "unitLabel": "ml",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351129302202061",
+      "name": "Condicionador Intense Treatment Marco Lima Cosméticos",
+      "company": "Florus",
+      "category": "condicionador",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351129302202061",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 990,
+        "unitQty": 400,
+        "unitLabel": "ml",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351154981202601",
+      "name": "Condicionador Argan - Sensecare",
+      "company": "Osmose",
+      "category": "condicionador",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351154981202601",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 2990,
+        "unitQty": 250,
+        "unitLabel": "ml",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351220074202225",
+      "name": "Hidra Condicionador Bio Extratus",
+      "company": "Bio Extratus Cosmetic Natural",
+      "category": "condicionador",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351220074202225",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 790,
+        "unitQty": 250,
+        "unitLabel": "ml",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351403208202411",
+      "name": "Condicionador Selagem de Brilho Acid Gloss Bothânico Cosméticos",
+      "company": "Bothânico Hair Cosmetic Natural",
+      "category": "condicionador",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351403208202411",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 1290,
+        "unitQty": 400,
+        "unitLabel": "ml",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351490123202376",
+      "name": "Lee Stafford, Argain Oil From Morocco Condicionador Nutritivo",
+      "company": "Romano Distribuidora",
+      "category": "condicionador",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351490123202376",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 1890,
+        "unitQty": 250,
+        "unitLabel": "ml",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351500694202245",
+      "name": "Kresce Forte Condicionador para Todos os Tipos de Cabelo - Eriká Cosméticos",
+      "company": "Jance Quimicos",
+      "category": "condicionador",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351500694202245",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 2990,
+        "unitQty": 400,
+        "unitLabel": "ml",
+        "inStock": false
+      }
+    },
+    {
+      "id": "cos-25351673635202112",
+      "name": "Yenzah Spa Abacate Condicionador",
+      "company": "Proscience Beauty",
+      "category": "condicionador",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351673635202112",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 1890,
+        "unitQty": 325,
+        "unitLabel": "ml",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-2502500294898",
+      "name": "Sabonete Anafont Paris Salmao para Pele Mista Fontana",
+      "company": "Fontana Sa",
+      "category": "sabonete",
+      "skinTypes": [
+        "mista"
+      ],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "2502500294898",
+        "registration": "202540052"
+      },
+      "simulated": {
+        "priceCents": 990,
+        "unitQty": 90,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351002294202279",
+      "name": "Sabonete Líquido Antioleosidade Pele Mistas",
+      "company": "Matrix Comercial",
+      "category": "sabonete",
+      "skinTypes": [
+        "mista"
+      ],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351002294202279",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 790,
+        "unitQty": 90,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351014840202303",
+      "name": "Sabonete Vegano Pele Oleosa Natthus",
+      "company": "Naturelle Naturais",
+      "category": "sabonete",
+      "skinTypes": [
+        "oleosa"
+      ],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351014840202303",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 490,
+        "unitQty": 90,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351023762202672",
+      "name": "Vagisil Pele Sensivel Sabonete Intimo em Gel",
+      "company": "Advertising Operations Assessoria Planejamento Propaganda",
+      "category": "sabonete",
+      "skinTypes": [
+        "sensivel"
+      ],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351023762202672",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 390,
+        "unitQty": 85,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351092619202540",
+      "name": "Peles Oleosas - Sabonete para Limpeza Zion",
+      "company": "Veneza",
+      "category": "sabonete",
+      "skinTypes": [
+        "oleosa"
+      ],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351092619202540",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 290,
+        "unitQty": 90,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351102813201531",
+      "name": "Sabonete Líquido Facial Pele Mista a Oleosa Dermotolerance Mahogany",
+      "company": "Laboratório Sklean",
+      "category": "sabonete",
+      "skinTypes": [
+        "mista",
+        "oleosa"
+      ],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351102813201531",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 1290,
+        "unitQty": 85,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351181544202571",
+      "name": "Sabonete Líquido Facial para Peles Oleosas Sublime Skin - Polea Care",
+      "company": "Duotrato",
+      "category": "sabonete",
+      "skinTypes": [
+        "oleosa"
+      ],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351181544202571",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 1090,
+        "unitQty": 85,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351208802202573",
+      "name": "Sabonete Facial Lavandin - para Peles Normais a Secas Angatu Cosméticos Naturais",
+      "company": "Unevie Saboaria Natural Vegetal",
+      "category": "sabonete",
+      "skinTypes": [
+        "normal",
+        "seca"
+      ],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351208802202573",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 390,
+        "unitQty": 150,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351495880202174",
+      "name": "Sabonete para Limpeza da Pele Oleosa Gomic Fortale",
+      "company": "Veneza",
+      "category": "sabonete",
+      "skinTypes": [
+        "oleosa"
+      ],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351495880202174",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 490,
+        "unitQty": 150,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351523824201912",
+      "name": "Sabonete em Gel Peles Oleosas Mizz Alavis",
+      "company": "Alavis Laboratorios",
+      "category": "sabonete",
+      "skinTypes": [
+        "oleosa"
+      ],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351523824201912",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 490,
+        "unitQty": 85,
+        "unitLabel": "g",
+        "inStock": false
+      }
+    },
+    {
+      "id": "cos-25351835863202346",
+      "name": "Sabonete Gel Facial Peles Oleosas",
+      "company": "Proline",
+      "category": "sabonete",
+      "skinTypes": [
+        "oleosa"
+      ],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351835863202346",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 490,
+        "unitQty": 150,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351862547202185",
+      "name": "Sabonete Liquido Orgânico & Natural para Peles Sensíveis Sem Perfume Urtekram 200/500ML",
+      "company": "Alva Personal Care Acessorios",
+      "category": "sabonete",
+      "skinTypes": [
+        "sensivel"
+      ],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351862547202185",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 290,
+        "unitQty": 150,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-250000033469732",
+      "name": "Desodorante Aerosol Gelatti Negra o Alquimista",
+      "company": "O Alquimista",
+      "category": "desodorante",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "250000033469732",
+        "registration": "224240021"
+      },
+      "simulated": {
+        "priceCents": 1490,
+        "unitQty": 150,
+        "unitLabel": "ml",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-250000397299884",
+      "name": "Deo Colonia Desodorante Vidan",
+      "company": "Gadea",
+      "category": "desodorante",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "250000397299884",
+        "registration": "220240433"
+      },
+      "simulated": {
+        "priceCents": 790,
+        "unitQty": 150,
+        "unitLabel": "ml",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-2500102032485",
+      "name": "Desodorante de Hamamelis",
+      "company": "Farmácia Laboratório Homeopático Almeida Prado",
+      "category": "desodorante",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "2500102032485",
+        "registration": "201930003"
+      },
+      "simulated": {
+        "priceCents": 1790,
+        "unitQty": 55,
+        "unitLabel": "ml",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351040833202511",
+      "name": "Avon Lov U Desodorante Roll-on Antitranspirante",
+      "company": "Natura",
+      "category": "desodorante",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351040833202511",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 890,
+        "unitQty": 200,
+        "unitLabel": "ml",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351061810202540",
+      "name": "Desodorante Colônia Juventus",
+      "company": "Audace Importadora",
+      "category": "desodorante",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351061810202540",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 790,
+        "unitQty": 150,
+        "unitLabel": "ml",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351130787202541",
+      "name": "Creme Desodorante Antitranspirante Herbíssimo Care Linhaça e Coezima Q10",
+      "company": "Dana Industrial Solucoes em",
+      "category": "desodorante",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351130787202541",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 2090,
+        "unitQty": 200,
+        "unitLabel": "ml",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351150811202568",
+      "name": "Corpo Dourado Parfum Inspiracion Pétalas Hidratante Desodorante Corporal",
+      "company": "Corpo Dourado Perfumaria",
+      "category": "desodorante",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351150811202568",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 1790,
+        "unitQty": 55,
+        "unitLabel": "ml",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351168378201768",
+      "name": "Desodorante Hidratante Corporal Natura Meu Primeiro Humor",
+      "company": "Natura",
+      "category": "desodorante",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351168378201768",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 1990,
+        "unitQty": 55,
+        "unitLabel": "ml",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351397503201564",
+      "name": "Le Senechal - Body Splah Desodorante Corporal 02",
+      "company": "Deo Colonia Desodorante Senechal",
+      "category": "desodorante",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351397503201564",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 1590,
+        "unitQty": 150,
+        "unitLabel": "ml",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351452342202195",
+      "name": "Jequiti Sabrina Sato Desodorante Colônia Feminina",
+      "company": "Freedom",
+      "category": "desodorante",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351452342202195",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 2090,
+        "unitQty": 55,
+        "unitLabel": "ml",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351478945202389",
+      "name": "In The Box Desodorante Colonia Hobin Oud",
+      "company": "Yantra",
+      "category": "desodorante",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351478945202389",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 1090,
+        "unitQty": 55,
+        "unitLabel": "ml",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351747897202031",
+      "name": "Pró Desodorante Hidratante",
+      "company": "Lbe",
+      "category": "desodorante",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351747897202031",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 2190,
+        "unitQty": 150,
+        "unitLabel": "ml",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351029025202250",
+      "name": "Gel Dental Condor Kids Hot Wheels com 1100 Ppm Flúor Sabor Tutti-frutti",
+      "company": "Condor Nordeste",
+      "category": "creme_dental",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351029025202250",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 990,
+        "unitQty": 120,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351029627202631",
+      "name": "Creme Dental Triplo Clareador - Sopami",
+      "company": "H7 Import",
+      "category": "creme_dental",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351029627202631",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 1790,
+        "unitQty": 70,
+        "unitLabel": "g",
+        "inStock": false
+      }
+    },
+    {
+      "id": "cos-25351108381202662",
+      "name": "Signal Cavity Fighter Creme Dental",
+      "company": "Pro Nova",
+      "category": "creme_dental",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351108381202662",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 690,
+        "unitQty": 90,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351140316202541",
+      "name": "Gel Dental Infantil Regenerador Diário Tutti Frutti com Flúor Dentalclean",
+      "company": "Rabbit Pessoal",
+      "category": "creme_dental",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351140316202541",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 390,
+        "unitQty": 120,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351150052202614",
+      "name": "Gel Dental Cosmetic N&w",
+      "company": "New Dental Care",
+      "category": "creme_dental",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351150052202614",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 490,
+        "unitQty": 120,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351158335202523",
+      "name": "Prevent Antiplaca Creme Dental com Flúor",
+      "company": "Colgate Palmolive Industrial",
+      "category": "creme_dental",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351158335202523",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 490,
+        "unitQty": 90,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351266975202344",
+      "name": "Creme Dental Natural  Up Natural",
+      "company": "L`aromatic",
+      "category": "creme_dental",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351266975202344",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 490,
+        "unitQty": 120,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351628495201814",
+      "name": "Gel Dental Dentrat Naturalle",
+      "company": "Vidal Life",
+      "category": "creme_dental",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351628495201814",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 390,
+        "unitQty": 90,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351119572201921",
+      "name": "Spray Repelente de Insetos Solar Gold 13 Horas",
+      "company": "Nutriex Nutracêuticos",
+      "category": "repelente",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351119572201921",
+        "registration": "291200290"
+      },
+      "simulated": {
+        "priceCents": 3090,
+        "unitQty": 240,
+        "unitLabel": "ml",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351270626202084",
+      "name": "Spray Repelente de Insetos Sun com Icaridina 25%",
+      "company": "Nutriex Nutracêuticos",
+      "category": "repelente",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351270626202084",
+        "registration": "291200312"
+      },
+      "simulated": {
+        "priceCents": 3490,
+        "unitQty": 100,
+        "unitLabel": "ml",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351407284201751",
+      "name": "Giovanna Baby Repelente de Alta Eficácia",
+      "company": "Pro Nova",
+      "category": "repelente",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351407284201751",
+        "registration": "255160013"
+      },
+      "simulated": {
+        "priceCents": 3090,
+        "unitQty": 240,
+        "unitLabel": "ml",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351414530201810",
+      "name": "Repelente de Insetos Aerossol No Mosquito",
+      "company": "Alianza Quimica",
+      "category": "repelente",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351414530201810",
+        "registration": "285960015"
+      },
+      "simulated": {
+        "priceCents": 1290,
+        "unitQty": 240,
+        "unitLabel": "ml",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351481228201958",
+      "name": "PH Cosmetics Repelente de Icaridina Turminha do Bem",
+      "company": "PH Cosmetics Global Varejista Atacadista & Editora",
+      "category": "repelente",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351481228201958",
+        "registration": "296450003"
+      },
+      "simulated": {
+        "priceCents": 3090,
+        "unitQty": 240,
+        "unitLabel": "ml",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351540330202036",
+      "name": "Repelente de Insetos Heraprotec Inset",
+      "company": "Am",
+      "category": "repelente",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351540330202036",
+        "registration": "263230004"
+      },
+      "simulated": {
+        "priceCents": 2190,
+        "unitQty": 240,
+        "unitLabel": "ml",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351661748201942",
+      "name": "Fly Biorepelente Aya Tech",
+      "company": "Luvima",
+      "category": "repelente",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351661748201942",
+        "registration": "284590002"
+      },
+      "simulated": {
+        "priceCents": 3090,
+        "unitQty": 240,
+        "unitLabel": "ml",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351689968201779",
+      "name": "Alg Repel Plus Loção Líquida Repelente de Insetos",
+      "company": "Toque das Feiticeiras Naturais P P",
+      "category": "repelente",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351689968201779",
+        "registration": "209330094"
+      },
+      "simulated": {
+        "priceCents": 1390,
+        "unitQty": 240,
+        "unitLabel": "ml",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351066824202631",
+      "name": "Hidratante Labial Brilhante com Oleo de Camelia Ierlei",
+      "company": "Fgp Solucoes Integradas",
+      "category": "protetor_labial",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351066824202631",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 1990,
+        "unitQty": 5,
+        "unitLabel": "g",
+        "inStock": false
+      }
+    },
+    {
+      "id": "cos-25351075660202390",
+      "name": "Nutryderm Protetor Labial Ácido Hialurônico",
+      "company": "Crhon",
+      "category": "protetor_labial",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351075660202390",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 1490,
+        "unitQty": 5,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351105757202687",
+      "name": "PH Cacauzinho - Protetor Labial Cacauzinho com Manteiga de Cacau e de Cupuaçu.",
+      "company": "Natuphitus",
+      "category": "protetor_labial",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351105757202687",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 590,
+        "unitQty": 5,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351137637202649",
+      "name": "Nutryderm Protetor Labial FPS 15",
+      "company": "Crhon",
+      "category": "protetor_labial",
+      "skinTypes": [],
+      "spf": 15,
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351137637202649",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 1390,
+        "unitQty": 4,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351304141200724",
+      "name": "Attivi Drogaderma Protetor Labial FPS 30",
+      "company": "L D Laboratório Evolução Dermatológica",
+      "category": "protetor_labial",
+      "skinTypes": [],
+      "spf": 30,
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351304141200724",
+        "registration": "215540128"
+      },
+      "simulated": {
+        "priceCents": 990,
+        "unitQty": 4,
+        "unitLabel": "g",
+        "inStock": false
+      }
+    },
+    {
+      "id": "cos-25351334131202414",
+      "name": "Protetor Labial FPS 15 Melthen (Morango)",
+      "company": "Norvich Health & Care",
+      "category": "protetor_labial",
+      "skinTypes": [],
+      "spf": 15,
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351334131202414",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 1890,
+        "unitQty": 4,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351389702202458",
+      "name": "Hidratante Labial Holi Organic",
+      "company": "Indelelab",
+      "category": "protetor_labial",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351389702202458",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 890,
+        "unitQty": 10,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351712207202376",
+      "name": "Hidratante Labial Framboesa Chupa Chups The Skin Soul",
+      "company": "Embatek Tecnologia em",
+      "category": "protetor_labial",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351712207202376",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 1290,
+        "unitQty": 10,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351024455202617",
+      "name": "La Rive Sweet Velvet Eau de Parfum",
+      "company": "Br Brand",
+      "category": "perfume",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351024455202617",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 3090,
+        "unitQty": 100,
+        "unitLabel": "ml",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351029268202450",
+      "name": "S By Shakira Blush Kiss Eau de Toilette",
+      "company": "Puig Comercializadora Perfumes",
+      "category": "perfume",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351029268202450",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 3090,
+        "unitQty": 100,
+        "unitLabel": "ml",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351079806201817",
+      "name": "Carven Paris Seville Eau de Parfum",
+      "company": "Royal Opera",
+      "category": "perfume",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351079806201817",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 5290,
+        "unitQty": 100,
+        "unitLabel": "ml",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351099112201407",
+      "name": "Calvin Klein Ck One Red For Her Eau de Toilette",
+      "company": "Bright Star Business Corp Perfumaria Alimentos",
+      "category": "perfume",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351099112201407",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 3990,
+        "unitQty": 50,
+        "unitLabel": "ml",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351122958202649",
+      "name": "Eau de Parfum Hawas Glitz For Her Rasasi",
+      "company": "Hnd Importadora",
+      "category": "perfume",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351122958202649",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 7490,
+        "unitQty": 100,
+        "unitLabel": "ml",
+        "inStock": false
+      }
+    },
+    {
+      "id": "cos-25351221861201999",
+      "name": "Colônia Us 67 - Provanza",
+      "company": "Lima & Pergher",
+      "category": "perfume",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351221861201999",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 18090,
+        "unitQty": 50,
+        "unitLabel": "ml",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351417781202071",
+      "name": "Diptyque Vetyverio Eau de Toilette",
+      "company": "Olivia V M D Camplez",
+      "category": "perfume",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351417781202071",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 5490,
+        "unitQty": 100,
+        "unitLabel": "ml",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351432506201470",
+      "name": "Eau Tropicale Eau de Toilette",
+      "company": "Quimetal Sa",
+      "category": "perfume",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351432506201470",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 7890,
+        "unitQty": 100,
+        "unitLabel": "ml",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351535511202041",
+      "name": "Colônia Lírio Granado",
+      "company": "Casa Granado Laboratórios Farmácias Drogarias",
+      "category": "perfume",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351535511202041",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 3090,
+        "unitQty": 100,
+        "unitLabel": "ml",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351779072201511",
+      "name": "Eau de Toilette Pour Homme St Dupont Eau Des Princes Intense Paris Saint Germain",
+      "company": "Royal Opera",
+      "category": "perfume",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351779072201511",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 15590,
+        "unitQty": 100,
+        "unitLabel": "ml",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-250000112589641",
+      "name": "Batom Iijima",
+      "company": "Lipson",
+      "category": "batom",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "250000112589641",
+        "registration": "212391201"
+      },
+      "simulated": {
+        "priceCents": 4990,
+        "unitQty": 3,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-250000201849789",
+      "name": "Avon Batom Pop Love Tutti-frutti",
+      "company": "Avon Industrial",
+      "category": "batom",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "250000201849789",
+        "registration": "200040789"
+      },
+      "simulated": {
+        "priceCents": 1990,
+        "unitQty": 5,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351190868202338",
+      "name": "Batom Mu-cores 12 Unidades BT4022",
+      "company": "Yxy Acessorios",
+      "category": "batom",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351190868202338",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 1290,
+        "unitQty": 4,
+        "unitLabel": "g",
+        "inStock": false
+      }
+    },
+    {
+      "id": "cos-25351229083202281",
+      "name": "Batom Balm Tint Duda e Tina Beauty",
+      "company": "Multitons",
+      "category": "batom",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351229083202281",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 3490,
+        "unitQty": 4,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351396633202439",
+      "name": "Batom Líquido Made In - Melu",
+      "company": "Rodrigues Lourenço & Pereira",
+      "category": "batom",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351396633202439",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 1590,
+        "unitQty": 4,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351715606202046",
+      "name": "Batom Liquido Matte Belle Angel",
+      "company": "Scalett Bijuterias",
+      "category": "batom",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351715606202046",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 2590,
+        "unitQty": 4,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351751138201930",
+      "name": "Uni Lapis Batom Duo - UN-LA183DS",
+      "company": "Bludex",
+      "category": "batom",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351751138201930",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 1890,
+        "unitQty": 5,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351825231202021",
+      "name": "Batom Liquido Loucas Por Maquiagem",
+      "company": "M M R",
+      "category": "batom",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351825231202021",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 1390,
+        "unitQty": 5,
+        "unitLabel": "g",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351111444202668",
+      "name": "Esmalte Natural Lorrac",
+      "company": "Celi Correlatos",
+      "category": "esmalte",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351111444202668",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 590,
+        "unitQty": 9,
+        "unitLabel": "ml",
+        "inStock": false
+      }
+    },
+    {
+      "id": "cos-25351127598201734",
+      "name": "Esmalte Caroline Bittencort By Bella Brazil - Free",
+      "company": "Nobile Beneficiamento",
+      "category": "esmalte",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351127598201734",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 1290,
+        "unitQty": 10,
+        "unitLabel": "ml",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351221222202571",
+      "name": "Esmalte em Gel Magnetico Olho de Gato Sea Blue Paris",
+      "company": "Top Paris Perfumaria",
+      "category": "esmalte",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351221222202571",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 990,
+        "unitQty": 8,
+        "unitLabel": "ml",
+        "inStock": false
+      }
+    },
+    {
+      "id": "cos-25351351766201765",
+      "name": "Esmalte Impala Paraíso Exótico",
+      "company": "Laboratório Avamiller",
+      "category": "esmalte",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351351766201765",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 990,
+        "unitQty": 8,
+        "unitLabel": "ml",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351522674201477",
+      "name": "Studio 35 Nail Care Esmalte de Unhas Fortalecedor",
+      "company": "La Vitta Cosmética",
+      "category": "esmalte",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351522674201477",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 490,
+        "unitQty": 8,
+        "unitLabel": "ml",
+        "inStock": false
+      }
+    },
+    {
+      "id": "cos-25351549037201619",
+      "name": "Esmalte Gi Ju Isa",
+      "company": "J K Fabricação",
+      "category": "esmalte",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351549037201619",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 1090,
+        "unitQty": 10,
+        "unitLabel": "ml",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351020320202089",
+      "name": "Effetiv Álcool Gel 70",
+      "company": "Launer Química",
+      "category": "antisseptico",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351020320202089",
+        "registration": "412450001"
+      },
+      "simulated": {
+        "priceCents": 490,
+        "unitQty": 200,
+        "unitLabel": "ml",
+        "inStock": false
+      }
+    },
+    {
+      "id": "cos-25351031169202195",
+      "name": "Álcool Gel Antisséptico 70° Inpm Biokattus",
+      "company": "Santa Helena Química",
+      "category": "antisseptico",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351031169202195",
+        "registration": "436830002"
+      },
+      "simulated": {
+        "priceCents": 590,
+        "unitQty": 500,
+        "unitLabel": "ml",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351133429202671",
+      "name": "Coline Kyoho Higienizador de Mãos",
+      "company": "Aya",
+      "category": "antisseptico",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351133429202671",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 490,
+        "unitQty": 70,
+        "unitLabel": "ml",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351152644202590",
+      "name": "New Star Gel Antisséptico para as Mãos Rosas",
+      "company": "Oggi Per Te Quimica",
+      "category": "antisseptico",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351152644202590",
+        "registration": "210790153"
+      },
+      "simulated": {
+        "priceCents": 490,
+        "unitQty": 500,
+        "unitLabel": "ml",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351196770202041",
+      "name": "Gelmav Gel Antisséptico Hidratante Mavaro",
+      "company": "Mavaro Químicos",
+      "category": "antisseptico",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351196770202041",
+        "registration": "212800032"
+      },
+      "simulated": {
+        "priceCents": 890,
+        "unitQty": 200,
+        "unitLabel": "ml",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351271434202257",
+      "name": "Higienizador de Mãos Álcool Gel 70° Inpm Barbarex",
+      "company": "Senir Embalagens",
+      "category": "antisseptico",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351271434202257",
+        "registration": "439520001"
+      },
+      "simulated": {
+        "priceCents": 690,
+        "unitQty": 70,
+        "unitLabel": "ml",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351277040202041",
+      "name": "Hidratante em Gel Imune 99 Bionatum Contém Alcool 70%",
+      "company": "Amni",
+      "category": "antisseptico",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351277040202041",
+        "registration": ""
+      },
+      "simulated": {
+        "priceCents": 490,
+        "unitQty": 70,
+        "unitLabel": "ml",
+        "inStock": true
+      }
+    },
+    {
+      "id": "cos-25351444262202085",
+      "name": "Álcool Gel Revittá",
+      "company": "Laboratório Cristhal",
+      "category": "antisseptico",
+      "skinTypes": [],
+      "risk": "GREEN",
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_COSMETICOS",
+        "process": "25351444262202085",
+        "registration": "219770479"
+      },
+      "simulated": {
+        "priceCents": 690,
+        "unitQty": 200,
+        "unitLabel": "ml",
+        "inStock": true
+      }
+    }
+  ]
+}

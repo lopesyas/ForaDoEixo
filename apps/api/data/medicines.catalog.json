@@ -1,0 +1,2685 @@
+{
+  "generatedFrom": "Anvisa — Dados abertos: TA_CONSULTA_MEDICAMENTOS",
+  "note": "Nome, empresa, substâncias e tarja vêm do cadastro público da Anvisa. Preço (PMC), apresentação e EAN vêm da tabela CMED. Contraindicações e interações são curadoria de PROTÓTIPO por substância (validar com farmacêutico). Só o ESTOQUE é SIMULADO.",
+  "tarjaCodes": "Confirmados pela tabela CMED (milhares de produtos cruzados): 1=Sem tarja; 2=Tarja vermelha; 3=Tarja vermelha sob restrição; 4=Tarja preta. Sem receita só se Anvisa E CMED concordarem.",
+  "stats": {
+    "lidas": 228869,
+    "ativasRegistradas": 51106,
+    "livres": 2890,
+    "receita": 48216
+  },
+  "products": [
+    {
+      "id": "med-1070603",
+      "name": "Dorona Cafi",
+      "company": "Brainfarma Química Farmacêutica",
+      "regulatory": "Similar",
+      "tarja": [
+        1
+      ],
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_MEDICAMENTOS",
+        "process": "25351184156201570",
+        "registration": "155840481"
+      },
+      "risk": "YELLOW",
+      "group": "analgesico",
+      "use": "dor e febre",
+      "substances": [
+        "dipirona",
+        "cafeína"
+      ],
+      "avoidIf": [],
+      "interactsWith": [],
+      "cautionElderly": false,
+      "simulated": {
+        "priceCents": 1933,
+        "inStock": true
+      },
+      "pricing": {
+        "source": "CMED",
+        "publishedAt": "2026-10-09",
+        "icms": 18,
+        "presentation": "500 MG + 65 MG COM CT BL AL PLAS AMB X 16",
+        "ean": "7896714265124",
+        "registration13": "1558404810021"
+      }
+    },
+    {
+      "id": "med-1139519",
+      "name": "Nexflen",
+      "company": "Legrand Pharma Farmacêutica",
+      "regulatory": "Similar",
+      "tarja": [
+        1
+      ],
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_MEDICAMENTOS",
+        "process": "25351488280201692",
+        "registration": "167730649"
+      },
+      "risk": "YELLOW",
+      "group": "analgesico",
+      "use": "dor e inflamação",
+      "substances": [
+        "naproxeno"
+      ],
+      "avoidIf": [
+        "stomach_ulcer",
+        "kidney_disease",
+        "hypertension",
+        "asthma"
+      ],
+      "interactsWith": [
+        "anticoagulant",
+        "nsaid",
+        "antihypertensive"
+      ],
+      "cautionElderly": true,
+      "simulated": {
+        "priceCents": 3550,
+        "inStock": false
+      },
+      "pricing": {
+        "source": "CMED",
+        "publishedAt": "2026-10-09",
+        "icms": 18,
+        "presentation": "550 MG COM REV CT BL AL PLAS PVDC TRANS X 10",
+        "ean": "7896004773957",
+        "registration13": "1677306490139"
+      }
+    },
+    {
+      "id": "med-1155321",
+      "name": "Atrofem",
+      "company": "Cosmed Medicamentos",
+      "regulatory": "Similar",
+      "tarja": [
+        1
+      ],
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_MEDICAMENTOS",
+        "process": "25351117800201685",
+        "registration": "178170851"
+      },
+      "risk": "YELLOW",
+      "group": "analgesico",
+      "use": "dor, febre e inflamação",
+      "substances": [
+        "ibuprofeno"
+      ],
+      "avoidIf": [
+        "stomach_ulcer",
+        "kidney_disease",
+        "hypertension",
+        "asthma"
+      ],
+      "interactsWith": [
+        "anticoagulant",
+        "nsaid",
+        "antihypertensive"
+      ],
+      "cautionElderly": true,
+      "simulated": {
+        "priceCents": 3160,
+        "inStock": true
+      },
+      "pricing": {
+        "source": "CMED",
+        "publishedAt": "2026-10-09",
+        "icms": 18,
+        "presentation": "400 MG CAP MOLE CT BL AL PLAS PVC/PVDC TRANS X 10",
+        "ean": "7896094914971",
+        "registration13": "1781708510041"
+      }
+    },
+    {
+      "id": "med-125165",
+      "name": "Doricin",
+      "company": "Ems",
+      "regulatory": "Similar",
+      "tarja": [
+        1
+      ],
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_MEDICAMENTOS",
+        "process": "2500100823881",
+        "registration": "102350072"
+      },
+      "risk": "YELLOW",
+      "group": "analgesico",
+      "use": "dor muscular, dor e febre",
+      "substances": [
+        "orfenadrina",
+        "dipirona",
+        "cafeína"
+      ],
+      "avoidIf": [],
+      "interactsWith": [
+        "sedative"
+      ],
+      "cautionElderly": true,
+      "simulated": {
+        "priceCents": 1900,
+        "inStock": true
+      },
+      "pricing": {
+        "source": "CMED",
+        "publishedAt": "2026-10-09",
+        "icms": 18,
+        "presentation": "(35 + 300 + 50) MG COM CT BL AL PLAS PVC/PVDC AMB X 24",
+        "ean": "7896004769011",
+        "registration13": "1023500720201"
+      }
+    },
+    {
+      "id": "med-1281387",
+      "name": "Nuromol",
+      "company": "Reckitt Benckiser ( )",
+      "regulatory": "Novo",
+      "tarja": [
+        1
+      ],
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_MEDICAMENTOS",
+        "process": "25351017756201539",
+        "registration": "173900010"
+      },
+      "risk": "YELLOW",
+      "group": "analgesico",
+      "use": "dor, febre e inflamação, dor e febre",
+      "substances": [
+        "ibuprofeno",
+        "paracetamol"
+      ],
+      "avoidIf": [
+        "stomach_ulcer",
+        "kidney_disease",
+        "hypertension",
+        "asthma",
+        "liver_disease"
+      ],
+      "interactsWith": [
+        "anticoagulant",
+        "nsaid",
+        "antihypertensive"
+      ],
+      "cautionElderly": true,
+      "simulated": {
+        "priceCents": 1790,
+        "inStock": true
+      },
+      "pricing": {
+        "source": "CMED",
+        "publishedAt": "2026-10-09",
+        "icms": 18,
+        "presentation": "(200,0 + 500,0) MG COM REV CT BL AL PLAS PVC/PVDC OPC X 6",
+        "ean": "7891035001116",
+        "registration13": "1739000100019"
+      }
+    },
+    {
+      "id": "med-1452148",
+      "name": "Ibuprofeno",
+      "company": "Geolab Farmacêutica",
+      "regulatory": "Genérico",
+      "tarja": [
+        1
+      ],
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_MEDICAMENTOS",
+        "process": "25351767269202072",
+        "registration": "154230333"
+      },
+      "risk": "YELLOW",
+      "group": "analgesico",
+      "use": "dor, febre e inflamação",
+      "substances": [
+        "ibuprofeno"
+      ],
+      "avoidIf": [
+        "stomach_ulcer",
+        "kidney_disease",
+        "hypertension",
+        "asthma"
+      ],
+      "interactsWith": [
+        "anticoagulant",
+        "nsaid",
+        "antihypertensive"
+      ],
+      "cautionElderly": true,
+      "simulated": {
+        "priceCents": 2305,
+        "inStock": true
+      },
+      "pricing": {
+        "source": "CMED",
+        "publishedAt": "2026-10-09",
+        "icms": 18,
+        "presentation": "400 MG CAP MOLE  CT BL AL PLAS PVC/PVDC TRANS X 8",
+        "ean": "7899095202597",
+        "registration13": "1542303330026"
+      }
+    },
+    {
+      "id": "med-165175",
+      "name": "Vick Pyrena",
+      "company": "Procter & Gamble",
+      "regulatory": "Novo",
+      "tarja": [
+        1
+      ],
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_MEDICAMENTOS",
+        "process": "250000243129466",
+        "registration": "121420001"
+      },
+      "risk": "YELLOW",
+      "group": "analgesico",
+      "use": "dor e febre",
+      "substances": [
+        "paracetamol"
+      ],
+      "avoidIf": [
+        "liver_disease"
+      ],
+      "interactsWith": [
+        "anticoagulant"
+      ],
+      "cautionElderly": false,
+      "simulated": {
+        "priceCents": 2671,
+        "inStock": true
+      },
+      "pricing": {
+        "source": "CMED",
+        "publishedAt": "2026-10-09",
+        "icms": 18,
+        "presentation": "500 MG PO SOL OR CT 5 ENV AL PLAS PE X 5 G (SBR MEL E LIMÃO)",
+        "ean": "7501001310288",
+        "registration13": "1214200010040"
+      }
+    },
+    {
+      "id": "med-2606087",
+      "name": "Dorciflexin",
+      "company": "Cifarma Científica Farmacêutica",
+      "regulatory": "Similar",
+      "tarja": [
+        1
+      ],
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_MEDICAMENTOS",
+        "process": "25351312386202183",
+        "registration": "115600255"
+      },
+      "risk": "YELLOW",
+      "group": "analgesico",
+      "use": "dor e febre, dor muscular",
+      "substances": [
+        "dipirona",
+        "orfenadrina",
+        "cafeína"
+      ],
+      "avoidIf": [],
+      "interactsWith": [
+        "sedative"
+      ],
+      "cautionElderly": true,
+      "simulated": {
+        "priceCents": 2405,
+        "inStock": true
+      },
+      "pricing": {
+        "source": "CMED",
+        "publishedAt": "2026-10-09",
+        "icms": 18,
+        "presentation": "(300 + 35 + 50) MG COM CT BL AL PLAS PVC/PVDC TRANS X 30",
+        "ean": "7908020501336",
+        "registration13": "1156002550031"
+      }
+    },
+    {
+      "id": "med-278992",
+      "name": "Ana - Flex",
+      "company": "Cristália Químicos Farmacêuticos",
+      "regulatory": "Similar",
+      "tarja": [
+        1
+      ],
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_MEDICAMENTOS",
+        "process": "25351020693200359",
+        "registration": "102980328"
+      },
+      "risk": "YELLOW",
+      "group": "analgesico",
+      "use": "dor muscular, dor e febre",
+      "substances": [
+        "orfenadrina",
+        "dipirona",
+        "cafeína"
+      ],
+      "avoidIf": [],
+      "interactsWith": [
+        "sedative"
+      ],
+      "cautionElderly": true,
+      "simulated": {
+        "priceCents": 1940,
+        "inStock": true
+      },
+      "pricing": {
+        "source": "CMED",
+        "publishedAt": "2026-10-09",
+        "icms": 18,
+        "presentation": "35 MG/ML + 300MG/ML + 50MG/ML SOL OR CT FR VD AMB X 20 ML",
+        "ean": "7896676414660",
+        "registration13": "1029803280061"
+      }
+    },
+    {
+      "id": "med-3306917",
+      "name": "Dipirona Monoidratada",
+      "company": "Multilab Farmaceuticos",
+      "regulatory": "Genérico",
+      "tarja": [
+        1
+      ],
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_MEDICAMENTOS",
+        "process": "25351063057202284",
+        "registration": "118190313"
+      },
+      "risk": "YELLOW",
+      "group": "analgesico",
+      "use": "dor e febre",
+      "substances": [
+        "dipirona"
+      ],
+      "avoidIf": [],
+      "interactsWith": [],
+      "cautionElderly": false,
+      "simulated": {
+        "priceCents": 1134,
+        "inStock": false
+      },
+      "pricing": {
+        "source": "CMED",
+        "publishedAt": "2026-10-09",
+        "icms": 18,
+        "presentation": "500 MG/ML SOL OR CT FR GOT PLAS OPC X 10 ML",
+        "ean": "7895296210010",
+        "registration13": "1181903130015"
+      }
+    },
+    {
+      "id": "med-3551564",
+      "name": "Novalgina Flash",
+      "company": "Opella Healthcare Brazil",
+      "regulatory": "Novo",
+      "tarja": [
+        1
+      ],
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_MEDICAMENTOS",
+        "process": "25351304473202248",
+        "registration": "186200023"
+      },
+      "risk": "YELLOW",
+      "group": "analgesico",
+      "use": "dor e febre",
+      "substances": [
+        "dipirona",
+        "cafeína"
+      ],
+      "avoidIf": [],
+      "interactsWith": [],
+      "cautionElderly": false,
+      "simulated": {
+        "priceCents": 2580,
+        "inStock": true
+      },
+      "pricing": {
+        "source": "CMED",
+        "publishedAt": "2026-10-09",
+        "icms": 18,
+        "presentation": "(1000 + 130) MG COM CT BL AL PLAS PVC/PVDC TRANS X 8",
+        "ean": "7891058005993",
+        "registration13": "1862000230029"
+      }
+    },
+    {
+      "id": "med-3561247",
+      "name": "Ressalivdor",
+      "company": "1FARMA Farmaceutica",
+      "regulatory": "Similar",
+      "tarja": [
+        1
+      ],
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_MEDICAMENTOS",
+        "process": "25351126028202231",
+        "registration": "104810164"
+      },
+      "risk": "YELLOW",
+      "group": "analgesico",
+      "use": "dor e febre, dor de cabeça",
+      "substances": [
+        "cafeína",
+        "dipirona",
+        "isometepteno"
+      ],
+      "avoidIf": [
+        "hypertension"
+      ],
+      "interactsWith": [],
+      "cautionElderly": false,
+      "simulated": {
+        "priceCents": 1344,
+        "inStock": true
+      },
+      "pricing": {
+        "source": "CMED",
+        "publishedAt": "2026-10-09",
+        "icms": 18,
+        "presentation": "30 MG + 300 MG + 30 MG COM REV CT BL AL PLAS PVC/PE/PVDC TRANS X 10",
+        "ean": "7898075318211",
+        "registration13": "1048101640056"
+      }
+    },
+    {
+      "id": "med-3566161",
+      "name": "Nexoprax",
+      "company": "Multilab Farmaceuticos",
+      "regulatory": "Similar",
+      "tarja": [
+        1
+      ],
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_MEDICAMENTOS",
+        "process": "25351071467202207",
+        "registration": "118190473"
+      },
+      "risk": "YELLOW",
+      "group": "analgesico",
+      "use": "dor e inflamação",
+      "substances": [
+        "naproxeno"
+      ],
+      "avoidIf": [
+        "stomach_ulcer",
+        "kidney_disease",
+        "hypertension",
+        "asthma"
+      ],
+      "interactsWith": [
+        "anticoagulant",
+        "nsaid",
+        "antihypertensive"
+      ],
+      "cautionElderly": true,
+      "simulated": {
+        "priceCents": 3653,
+        "inStock": true
+      },
+      "pricing": {
+        "source": "CMED",
+        "publishedAt": "2026-10-09",
+        "icms": 18,
+        "presentation": "550 MG COM REV CT BL AL PLAS PVDC TRANS X 10",
+        "ean": "7895296448512",
+        "registration13": "1181904730131"
+      }
+    },
+    {
+      "id": "med-3576758",
+      "name": "Sonridor Caf",
+      "company": "Pf Consumer Healthcare Brazil Importadora Distribuidora Medicamentos",
+      "regulatory": "Novo",
+      "tarja": [
+        1
+      ],
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_MEDICAMENTOS",
+        "process": "25351400593202275",
+        "registration": "192900006"
+      },
+      "risk": "YELLOW",
+      "group": "analgesico",
+      "use": "dor e febre",
+      "substances": [
+        "paracetamol",
+        "cafeína"
+      ],
+      "avoidIf": [
+        "liver_disease"
+      ],
+      "interactsWith": [
+        "anticoagulant"
+      ],
+      "cautionElderly": false,
+      "simulated": {
+        "priceCents": 12319,
+        "inStock": true
+      },
+      "pricing": {
+        "source": "CMED",
+        "publishedAt": "2026-10-09",
+        "icms": 18,
+        "presentation": "(500,0 + 65,0) MG COM EFEV CT STR AL POLIET X 24",
+        "ean": "7896015517106",
+        "registration13": "1929000060098"
+      }
+    },
+    {
+      "id": "med-3581246",
+      "name": "Ibuvix",
+      "company": "Geolab Farmacêutica",
+      "regulatory": "Similar",
+      "tarja": [
+        1
+      ],
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_MEDICAMENTOS",
+        "process": "25351611468202299",
+        "registration": "154230338"
+      },
+      "risk": "YELLOW",
+      "group": "analgesico",
+      "use": "dor, febre e inflamação",
+      "substances": [
+        "ibuprofeno"
+      ],
+      "avoidIf": [
+        "stomach_ulcer",
+        "kidney_disease",
+        "hypertension",
+        "asthma"
+      ],
+      "interactsWith": [
+        "anticoagulant",
+        "nsaid",
+        "antihypertensive"
+      ],
+      "cautionElderly": true,
+      "simulated": {
+        "priceCents": 2181,
+        "inStock": true
+      },
+      "pricing": {
+        "source": "CMED",
+        "publishedAt": "2026-10-09",
+        "icms": 18,
+        "presentation": "400 MG CAP MOLE  CT BL AL PLAS PVC/PVDC TRANS X 8",
+        "ean": "7899095203280",
+        "registration13": "1542303380023"
+      }
+    },
+    {
+      "id": "med-3590830",
+      "name": "Globonaxx",
+      "company": "Laboratório Globo Sa",
+      "regulatory": "Similar",
+      "tarja": [
+        1
+      ],
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_MEDICAMENTOS",
+        "process": "25351662859202271",
+        "registration": "105350257"
+      },
+      "risk": "YELLOW",
+      "group": "analgesico",
+      "use": "dor e inflamação",
+      "substances": [
+        "naproxeno"
+      ],
+      "avoidIf": [
+        "stomach_ulcer",
+        "kidney_disease",
+        "hypertension",
+        "asthma"
+      ],
+      "interactsWith": [
+        "anticoagulant",
+        "nsaid",
+        "antihypertensive"
+      ],
+      "cautionElderly": true,
+      "simulated": {
+        "priceCents": 2935,
+        "inStock": true
+      },
+      "pricing": {
+        "source": "CMED",
+        "publishedAt": "2026-10-09",
+        "icms": 18,
+        "presentation": "550 MG COM REV CT BL AL PLAS PVC/PVDC TRANS X 10",
+        "ean": "7899620915701",
+        "registration13": "1053502570012"
+      }
+    },
+    {
+      "id": "med-3616098",
+      "name": "Doralgina",
+      "company": "Brainfarma Química Farmacêutica",
+      "regulatory": "Similar",
+      "tarja": [
+        1
+      ],
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_MEDICAMENTOS",
+        "process": "25351068838202184",
+        "registration": "155840665"
+      },
+      "risk": "YELLOW",
+      "group": "analgesico",
+      "use": "dor e febre, dor de cabeça",
+      "substances": [
+        "dipirona",
+        "isometepteno",
+        "cafeína"
+      ],
+      "avoidIf": [
+        "hypertension"
+      ],
+      "interactsWith": [],
+      "cautionElderly": false,
+      "simulated": {
+        "priceCents": 3646,
+        "inStock": true
+      },
+      "pricing": {
+        "source": "CMED",
+        "publishedAt": "2026-10-09",
+        "icms": 18,
+        "presentation": "(300 + 30 + 30) MG COM REV CT BL AL PLAS PVC/PCTFE TRANS X 20",
+        "ean": "7896714291024",
+        "registration13": "1558406650054"
+      }
+    },
+    {
+      "id": "med-3646388",
+      "name": "Nevralgex Dc",
+      "company": "Cimed",
+      "regulatory": "Similar",
+      "tarja": [
+        1
+      ],
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_MEDICAMENTOS",
+        "process": "25351583513202399",
+        "registration": "143810299"
+      },
+      "risk": "YELLOW",
+      "group": "analgesico",
+      "use": "dor e febre, dor de cabeça",
+      "substances": [
+        "cafeína",
+        "dipirona",
+        "isometepteno"
+      ],
+      "avoidIf": [
+        "hypertension"
+      ],
+      "interactsWith": [],
+      "cautionElderly": false,
+      "simulated": {
+        "priceCents": 2949,
+        "inStock": true
+      },
+      "pricing": {
+        "source": "CMED",
+        "publishedAt": "2026-10-09",
+        "icms": 18,
+        "presentation": "30 MG + 300 MG + 30 MG COM REV CT BL AL PLAS PVC/PE/PVDC TRANS X 20",
+        "ean": "7896523201924",
+        "registration13": "1438102990024"
+      }
+    },
+    {
+      "id": "med-3652639",
+      "name": "Tylenol",
+      "company": "Kenvue",
+      "regulatory": "Novo",
+      "tarja": [
+        1
+      ],
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_MEDICAMENTOS",
+        "process": "25351464826202349",
+        "registration": "157211214"
+      },
+      "risk": "YELLOW",
+      "group": "analgesico",
+      "use": "dor e febre",
+      "substances": [
+        "paracetamol"
+      ],
+      "avoidIf": [
+        "liver_disease"
+      ],
+      "interactsWith": [
+        "anticoagulant"
+      ],
+      "cautionElderly": false,
+      "simulated": {
+        "priceCents": 2350,
+        "inStock": true
+      },
+      "pricing": {
+        "source": "CMED",
+        "publishedAt": "2026-10-09",
+        "icms": 18,
+        "presentation": "500 MG COM REV CT BL AL PVC X 10",
+        "ean": "7891010256609",
+        "registration13": "1572112140127"
+      }
+    },
+    {
+      "id": "med-3707032",
+      "name": "Stilgrip Chá",
+      "company": "Kley Hertz Farmaceutica",
+      "regulatory": "Similar",
+      "tarja": [
+        1
+      ],
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_MEDICAMENTOS",
+        "process": "25351208509202425",
+        "registration": "106890213"
+      },
+      "risk": "YELLOW",
+      "group": "analgesico",
+      "use": "dor e febre",
+      "substances": [
+        "paracetamol"
+      ],
+      "avoidIf": [
+        "liver_disease"
+      ],
+      "interactsWith": [
+        "anticoagulant"
+      ],
+      "cautionElderly": false,
+      "simulated": {
+        "priceCents": 22604,
+        "inStock": true
+      },
+      "pricing": {
+        "source": "CMED",
+        "publishedAt": "2026-10-09",
+        "icms": 18,
+        "presentation": "100 MG/G PO SOL OR CT 50 ENV AL/PLAS X 5 G",
+        "ean": "7896331709377",
+        "registration13": "1068902130018"
+      }
+    },
+    {
+      "id": "med-3785473",
+      "name": "Dipbe",
+      "company": "Kymberg Farmaceutica",
+      "regulatory": "Similar",
+      "tarja": [
+        1
+      ],
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_MEDICAMENTOS",
+        "process": "25351322233202497",
+        "registration": "196240005"
+      },
+      "risk": "YELLOW",
+      "group": "analgesico",
+      "use": "dor e febre",
+      "substances": [
+        "dipirona"
+      ],
+      "avoidIf": [],
+      "interactsWith": [],
+      "cautionElderly": false,
+      "simulated": {
+        "priceCents": 1143,
+        "inStock": true
+      },
+      "pricing": {
+        "source": "CMED",
+        "publishedAt": "2026-10-09",
+        "icms": 18,
+        "presentation": "500 MG/ML SOL OR CT FR PLAS OPC GOT X 10 ML",
+        "ean": "7891066014611",
+        "registration13": "1962400050016"
+      }
+    },
+    {
+      "id": "med-3788817",
+      "name": "Dipbe Dc",
+      "company": "Kymberg Farmaceutica",
+      "regulatory": "Similar",
+      "tarja": [
+        1
+      ],
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_MEDICAMENTOS",
+        "process": "25351461413202493",
+        "registration": "196240007"
+      },
+      "risk": "YELLOW",
+      "group": "analgesico",
+      "use": "dor e febre, dor de cabeça",
+      "substances": [
+        "cafeína",
+        "dipirona",
+        "isometepteno"
+      ],
+      "avoidIf": [
+        "hypertension"
+      ],
+      "interactsWith": [],
+      "cautionElderly": false,
+      "simulated": {
+        "priceCents": 3464,
+        "inStock": true
+      },
+      "pricing": {
+        "source": "CMED",
+        "publishedAt": "2026-10-09",
+        "icms": 18,
+        "presentation": "30 MG + 300 MG + 30 MG COM REV CT BL AL PLAS PVC/PE/PVDC TRANS X 20",
+        "ean": "7891066018664",
+        "registration13": "1962400070025"
+      }
+    },
+    {
+      "id": "med-426372",
+      "name": "Dipirona Sódica",
+      "company": "Farmace Químico Farmacêutica Cearense",
+      "regulatory": "Genérico",
+      "tarja": [
+        1
+      ],
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_MEDICAMENTOS",
+        "process": "25351329759200535",
+        "registration": "110850030"
+      },
+      "risk": "YELLOW",
+      "group": "analgesico",
+      "use": "dor e febre",
+      "substances": [
+        "dipirona"
+      ],
+      "avoidIf": [],
+      "interactsWith": [],
+      "cautionElderly": false,
+      "simulated": {
+        "priceCents": 812,
+        "inStock": true
+      },
+      "pricing": {
+        "source": "CMED",
+        "publishedAt": "2026-10-09",
+        "icms": 18,
+        "presentation": "500 MG/ML SOL GOT CT FR GOT PLAS OPC X 10 ML",
+        "ean": "7898166040847",
+        "registration13": "1108500300019"
+      }
+    },
+    {
+      "id": "med-760520",
+      "name": "Cafilisador",
+      "company": "Cosmed Medicamentos",
+      "regulatory": "Novo",
+      "tarja": [
+        1
+      ],
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_MEDICAMENTOS",
+        "process": "25351653311200947",
+        "registration": "178170097"
+      },
+      "risk": "YELLOW",
+      "group": "analgesico",
+      "use": "dor e febre",
+      "substances": [
+        "dipirona",
+        "cafeína"
+      ],
+      "avoidIf": [],
+      "interactsWith": [],
+      "cautionElderly": false,
+      "simulated": {
+        "priceCents": 5201,
+        "inStock": true
+      },
+      "pricing": {
+        "source": "CMED",
+        "publishedAt": "2026-10-09",
+        "icms": 18,
+        "presentation": "500 MG + 65 MG COM CT BL AL PLAS AMB X 16",
+        "ean": "7897322706528",
+        "registration13": "1781700970025"
+      }
+    },
+    {
+      "id": "med-1059116",
+      "name": "Frutaxx",
+      "company": "União Química Farmacêutica Nacional",
+      "regulatory": "Específico",
+      "tarja": [
+        1
+      ],
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_MEDICAMENTOS",
+        "process": "25351035929201565",
+        "registration": "104971402"
+      },
+      "risk": "YELLOW",
+      "group": "antiacido",
+      "use": "azia e má digestão",
+      "substances": [
+        "bicarbonato de sódio",
+        "sais antiácidos"
+      ],
+      "avoidIf": [
+        "hypertension",
+        "kidney_disease"
+      ],
+      "interactsWith": [],
+      "cautionElderly": false,
+      "simulated": {
+        "priceCents": 13122,
+        "inStock": true
+      },
+      "pricing": {
+        "source": "CMED",
+        "publishedAt": "2026-10-09",
+        "icms": 18,
+        "presentation": "(462 + 438 + 90)MG/G PO EFEV CT 50 ENV AL PLAS X 5 G (ABACAXI)",
+        "ean": "7896006214915",
+        "registration13": "1049714020018"
+      }
+    },
+    {
+      "id": "med-1919655",
+      "name": "Sal de Fruta Eno",
+      "company": "Pf Consumer Healthcare Brazil Importadora Distribuidora Medicamentos",
+      "regulatory": "Específico",
+      "tarja": [
+        1
+      ],
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_MEDICAMENTOS",
+        "process": "25351415936202034",
+        "registration": "192900003"
+      },
+      "risk": "YELLOW",
+      "group": "antiacido",
+      "use": "azia e má digestão",
+      "substances": [
+        "sais antiácidos",
+        "bicarbonato de sódio"
+      ],
+      "avoidIf": [
+        "hypertension",
+        "kidney_disease"
+      ],
+      "interactsWith": [],
+      "cautionElderly": false,
+      "simulated": {
+        "priceCents": 516,
+        "inStock": true
+      },
+      "pricing": {
+        "source": "CMED",
+        "publishedAt": "2026-10-09",
+        "icms": 18,
+        "presentation": "PO EFEV 2 ENV AL PLAS PE TRANS X 5 G (ICE MINT)",
+        "ean": "7896090611683",
+        "registration13": "1929000031071"
+      }
+    },
+    {
+      "id": "med-3389387",
+      "name": "Pepsamar",
+      "company": "Brainfarma Química Farmacêutica",
+      "regulatory": "Específico",
+      "tarja": [
+        1
+      ],
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_MEDICAMENTOS",
+        "process": "25351497195202263",
+        "registration": "155840639"
+      },
+      "risk": "YELLOW",
+      "group": "antiacido",
+      "use": "azia e má digestão",
+      "substances": [
+        "hidróxido de alumínio"
+      ],
+      "avoidIf": [
+        "kidney_disease"
+      ],
+      "interactsWith": [],
+      "cautionElderly": false,
+      "simulated": {
+        "priceCents": 4189,
+        "inStock": true
+      },
+      "pricing": {
+        "source": "CMED",
+        "publishedAt": "2026-10-09",
+        "icms": 18,
+        "presentation": "230 MG COM MAST CT BL AL PLAS PVC TRANS X 50",
+        "ean": "7896714292144",
+        "registration13": "1558406390125"
+      }
+    },
+    {
+      "id": "med-4791",
+      "name": "Gelmax",
+      "company": "Ems",
+      "regulatory": "Específico",
+      "tarja": [
+        1
+      ],
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_MEDICAMENTOS",
+        "process": "2599201205573",
+        "registration": "102350111"
+      },
+      "risk": "YELLOW",
+      "group": "antiacido",
+      "use": "azia e má digestão",
+      "substances": [
+        "hidróxido de alumínio",
+        "hidróxido de magnésio",
+        "carbonato de cálcio"
+      ],
+      "avoidIf": [
+        "kidney_disease"
+      ],
+      "interactsWith": [],
+      "cautionElderly": false,
+      "simulated": {
+        "priceCents": 2082,
+        "inStock": true
+      },
+      "pricing": {
+        "source": "CMED",
+        "publishedAt": "2026-10-09",
+        "icms": 18,
+        "presentation": "(178+185+230) MG COM MAST CT BL AL PLAS TRANS X 24 (LIMÃO)",
+        "ean": "7896004817460",
+        "registration13": "1023501110113"
+      }
+    },
+    {
+      "id": "med-805690",
+      "name": "Stomaliv",
+      "company": "Geolab Farmacêutica",
+      "regulatory": "Específico",
+      "tarja": [
+        1
+      ],
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_MEDICAMENTOS",
+        "process": "25351647441201161",
+        "registration": "154230185"
+      },
+      "risk": "YELLOW",
+      "group": "antiacido",
+      "use": "azia e má digestão",
+      "substances": [
+        "sais antiácidos",
+        "bicarbonato de sódio"
+      ],
+      "avoidIf": [
+        "hypertension",
+        "kidney_disease"
+      ],
+      "interactsWith": [],
+      "cautionElderly": false,
+      "simulated": {
+        "priceCents": 5403,
+        "inStock": true
+      },
+      "pricing": {
+        "source": "CMED",
+        "publishedAt": "2026-10-09",
+        "icms": 18,
+        "presentation": "(430 + 430 + 100) MG/G PO EFEV CT 35 ENV PAP/AL/PLAS PE X 5 G (SABOR ABACAXI)",
+        "ean": "7899095204423",
+        "registration13": "1542301850286"
+      }
+    },
+    {
+      "id": "med-881915",
+      "name": "Frusalt",
+      "company": "Cimed",
+      "regulatory": "Específico",
+      "tarja": [
+        1
+      ],
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_MEDICAMENTOS",
+        "process": "25351718166201285",
+        "registration": "143810164"
+      },
+      "risk": "YELLOW",
+      "group": "antiacido",
+      "use": "azia e má digestão",
+      "substances": [
+        "bicarbonato de sódio",
+        "sais antiácidos"
+      ],
+      "avoidIf": [
+        "hypertension",
+        "kidney_disease"
+      ],
+      "interactsWith": [],
+      "cautionElderly": false,
+      "simulated": {
+        "priceCents": 3234,
+        "inStock": false
+      },
+      "pricing": {
+        "source": "CMED",
+        "publishedAt": "2026-10-09",
+        "icms": 18,
+        "presentation": "(460 + 100 + 440) MG/G PO EFEV FR PLAS PEAD TRANSL X 100 G",
+        "ean": "7896523219608",
+        "registration13": "1438101640062"
+      }
+    },
+    {
+      "id": "med-1388975",
+      "name": "Loratadina",
+      "company": "União Química Farmacêutica Nacional",
+      "regulatory": "Genérico",
+      "tarja": [
+        1
+      ],
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_MEDICAMENTOS",
+        "process": "25351079582202050",
+        "registration": "104971491"
+      },
+      "risk": "YELLOW",
+      "group": "antialergico",
+      "use": "alergia",
+      "substances": [
+        "loratadina"
+      ],
+      "avoidIf": [],
+      "interactsWith": [],
+      "cautionElderly": false,
+      "simulated": {
+        "priceCents": 2085,
+        "inStock": true
+      },
+      "pricing": {
+        "source": "CMED",
+        "publishedAt": "2026-10-09",
+        "icms": 18,
+        "presentation": "10 MG COM CT BL AL PLAS PVC TRANS X 12",
+        "ean": "7896006219644",
+        "registration13": "1049714910031"
+      }
+    },
+    {
+      "id": "med-1400293",
+      "name": "Loratamed",
+      "company": "Cimed",
+      "regulatory": "Similar",
+      "tarja": [
+        1
+      ],
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_MEDICAMENTOS",
+        "process": "25351646001201964",
+        "registration": "143810253"
+      },
+      "risk": "YELLOW",
+      "group": "antialergico",
+      "use": "alergia",
+      "substances": [
+        "loratadina"
+      ],
+      "avoidIf": [],
+      "interactsWith": [],
+      "cautionElderly": false,
+      "simulated": {
+        "priceCents": 1531,
+        "inStock": true
+      },
+      "pricing": {
+        "source": "CMED",
+        "publishedAt": "2026-10-09",
+        "icms": 18,
+        "presentation": "10 MG COM CT BL AL PLAS PVC TRANS X 12",
+        "ean": "7896523202822",
+        "registration13": "1438102530147"
+      }
+    },
+    {
+      "id": "med-2762516",
+      "name": "Zalerv",
+      "company": "Kley Hertz Farmaceutica",
+      "regulatory": "Similar",
+      "tarja": [
+        1
+      ],
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_MEDICAMENTOS",
+        "process": "25351761403202111",
+        "registration": "106890211"
+      },
+      "risk": "YELLOW",
+      "group": "antialergico",
+      "use": "alergia",
+      "substances": [
+        "levocetirizina"
+      ],
+      "avoidIf": [
+        "kidney_disease"
+      ],
+      "interactsWith": [
+        "sedative"
+      ],
+      "cautionElderly": false,
+      "simulated": {
+        "priceCents": 4424,
+        "inStock": true
+      },
+      "pricing": {
+        "source": "CMED",
+        "publishedAt": "2026-10-09",
+        "icms": 18,
+        "presentation": "5 MG COM REV CT BL AL PLAS PVC/PE/PVDC TRANS X 10",
+        "ean": "7896331707892",
+        "registration13": "1068902110025"
+      }
+    },
+    {
+      "id": "med-2804281",
+      "name": "Afecso",
+      "company": "Vitamedic Farmaceutica",
+      "regulatory": "Similar",
+      "tarja": [
+        1
+      ],
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_MEDICAMENTOS",
+        "process": "25351877894202111",
+        "registration": "103920238"
+      },
+      "risk": "YELLOW",
+      "group": "antialergico",
+      "use": "alergia",
+      "substances": [
+        "fexofenadina"
+      ],
+      "avoidIf": [],
+      "interactsWith": [],
+      "cautionElderly": false,
+      "simulated": {
+        "priceCents": 4083,
+        "inStock": true
+      },
+      "pricing": {
+        "source": "CMED",
+        "publishedAt": "2026-10-09",
+        "icms": 18,
+        "presentation": "6 MG/ML SUS OR CT FR PLAS PET AMB X 60 ML + SER DOS",
+        "ean": "7898049798988",
+        "registration13": "1039202380018"
+      }
+    },
+    {
+      "id": "med-3543145",
+      "name": "Cloridrato de Fexofenadina",
+      "company": "Eurofarma Laboratorios",
+      "regulatory": "Genérico",
+      "tarja": [
+        1
+      ],
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_MEDICAMENTOS",
+        "process": "25351205535202230",
+        "registration": "100431523"
+      },
+      "risk": "YELLOW",
+      "group": "antialergico",
+      "use": "alergia",
+      "substances": [
+        "fexofenadina"
+      ],
+      "avoidIf": [],
+      "interactsWith": [],
+      "cautionElderly": false,
+      "simulated": {
+        "priceCents": 2767,
+        "inStock": false
+      },
+      "pricing": {
+        "source": "CMED",
+        "publishedAt": "2026-10-09",
+        "icms": 18,
+        "presentation": "6 MG/ML SUS OR CT FR VD AMB X 60 ML + SER DOS",
+        "ean": "7891317038540",
+        "registration13": "1004315230027"
+      }
+    },
+    {
+      "id": "med-3585587",
+      "name": "Loritil",
+      "company": "Geolab Farmacêutica",
+      "regulatory": "Similar",
+      "tarja": [
+        1
+      ],
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_MEDICAMENTOS",
+        "process": "25351639676202252",
+        "registration": "154230339"
+      },
+      "risk": "YELLOW",
+      "group": "antialergico",
+      "use": "alergia",
+      "substances": [
+        "loratadina"
+      ],
+      "avoidIf": [],
+      "interactsWith": [],
+      "cautionElderly": false,
+      "simulated": {
+        "priceCents": 1675,
+        "inStock": true
+      },
+      "pricing": {
+        "source": "CMED",
+        "publishedAt": "2026-10-09",
+        "icms": 18,
+        "presentation": "10 MG COM CT BL AL PLAS PVC TRANS X 12",
+        "ean": "7899095203563",
+        "registration13": "1542303390037"
+      }
+    },
+    {
+      "id": "med-3617539",
+      "name": "Desloratadina",
+      "company": "Ems",
+      "regulatory": "Genérico",
+      "tarja": [
+        1
+      ],
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_MEDICAMENTOS",
+        "process": "25351305648202315",
+        "registration": "102351426"
+      },
+      "risk": "YELLOW",
+      "group": "antialergico",
+      "use": "alergia",
+      "substances": [
+        "desloratadina"
+      ],
+      "avoidIf": [],
+      "interactsWith": [],
+      "cautionElderly": false,
+      "simulated": {
+        "priceCents": 5111,
+        "inStock": true
+      },
+      "pricing": {
+        "source": "CMED",
+        "publishedAt": "2026-10-09",
+        "icms": 18,
+        "presentation": "0,5 MG/ML XPE CT FR VD AMB X 60 ML + SER DOS",
+        "ean": "7896004726403",
+        "registration13": "1023514260062"
+      }
+    },
+    {
+      "id": "med-3619223",
+      "name": "Aleradina",
+      "company": "Germed Farmaceutica",
+      "regulatory": "Similar",
+      "tarja": [
+        1
+      ],
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_MEDICAMENTOS",
+        "process": "25351305650202394",
+        "registration": "105831035"
+      },
+      "risk": "YELLOW",
+      "group": "antialergico",
+      "use": "alergia",
+      "substances": [
+        "desloratadina"
+      ],
+      "avoidIf": [],
+      "interactsWith": [],
+      "cautionElderly": false,
+      "simulated": {
+        "priceCents": 6177,
+        "inStock": true
+      },
+      "pricing": {
+        "source": "CMED",
+        "publishedAt": "2026-10-09",
+        "icms": 18,
+        "presentation": "5 MG COM REV CT BL AL PLAS OPC X 10",
+        "ean": "7896004739151",
+        "registration13": "1058310350031"
+      }
+    },
+    {
+      "id": "med-3731286",
+      "name": "Deconlerg",
+      "company": "Aché Laboratórios Farmacêuticos",
+      "regulatory": "Similar",
+      "tarja": [
+        1
+      ],
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_MEDICAMENTOS",
+        "process": "25351374025202473",
+        "registration": "105730102"
+      },
+      "risk": "YELLOW",
+      "group": "antialergico",
+      "use": "alergia",
+      "substances": [
+        "desloratadina"
+      ],
+      "avoidIf": [],
+      "interactsWith": [],
+      "cautionElderly": false,
+      "simulated": {
+        "priceCents": 4211,
+        "inStock": true
+      },
+      "pricing": {
+        "source": "CMED",
+        "publishedAt": "2026-10-09",
+        "icms": 18,
+        "presentation": "0,5 MG/ML XPE CT FR PLAS AMB X 60 ML + SER DOS",
+        "ean": "7896658050862",
+        "registration13": "1057301020026"
+      }
+    },
+    {
+      "id": "med-3747842",
+      "name": "Dexpolarim",
+      "company": "Vitamedic Farmaceutica",
+      "regulatory": "Similar",
+      "tarja": [
+        1
+      ],
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_MEDICAMENTOS",
+        "process": "25351400831202412",
+        "registration": "103920243"
+      },
+      "risk": "YELLOW",
+      "group": "antialergico",
+      "use": "alergia (pode dar sono)",
+      "substances": [
+        "dexclorfeniramina"
+      ],
+      "avoidIf": [
+        "asthma"
+      ],
+      "interactsWith": [
+        "sedative"
+      ],
+      "cautionElderly": true,
+      "simulated": {
+        "priceCents": 2637,
+        "inStock": true
+      },
+      "pricing": {
+        "source": "CMED",
+        "publishedAt": "2026-10-09",
+        "icms": 18,
+        "presentation": "0,4MG/ML SOL OR CT FR PLAS PET AMB X 100 ML + COP",
+        "ean": "7898700413700",
+        "registration13": "1039202430015"
+      }
+    },
+    {
+      "id": "med-3792025",
+      "name": "Dicloridrato de Levocetirizina",
+      "company": "Laboratório Globo Sa",
+      "regulatory": "Genérico",
+      "tarja": [
+        1
+      ],
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_MEDICAMENTOS",
+        "process": "25351008498202566",
+        "registration": "105350250"
+      },
+      "risk": "YELLOW",
+      "group": "antialergico",
+      "use": "alergia",
+      "substances": [
+        "levocetirizina"
+      ],
+      "avoidIf": [
+        "kidney_disease"
+      ],
+      "interactsWith": [
+        "sedative"
+      ],
+      "cautionElderly": false,
+      "simulated": {
+        "priceCents": 4923,
+        "inStock": true
+      },
+      "pricing": {
+        "source": "CMED",
+        "publishedAt": "2026-10-09",
+        "icms": 18,
+        "presentation": "5,0 MG COM REV CT BL AL/AL X 10",
+        "ean": "7899620918023",
+        "registration13": "1053502500030"
+      }
+    },
+    {
+      "id": "med-496076",
+      "name": "Maleato de Dexclorfeniramina",
+      "company": "Ems",
+      "regulatory": "Genérico",
+      "tarja": [
+        1
+      ],
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_MEDICAMENTOS",
+        "process": "25351484310200610",
+        "registration": "102350847"
+      },
+      "risk": "YELLOW",
+      "group": "antialergico",
+      "use": "alergia (pode dar sono)",
+      "substances": [
+        "dexclorfeniramina"
+      ],
+      "avoidIf": [
+        "asthma"
+      ],
+      "interactsWith": [
+        "sedative"
+      ],
+      "cautionElderly": true,
+      "simulated": {
+        "priceCents": 1925,
+        "inStock": true
+      },
+      "pricing": {
+        "source": "CMED",
+        "publishedAt": "2026-10-09",
+        "icms": 18,
+        "presentation": "10 MG/G CREM DERM CT BG AL X 30 G",
+        "ean": "7896004720784",
+        "registration13": "1023508470034"
+      }
+    },
+    {
+      "id": "med-1460",
+      "name": "Carbocisteína",
+      "company": "Prati Donaduzzi & Cia",
+      "regulatory": "Genérico",
+      "tarja": [
+        1
+      ],
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_MEDICAMENTOS",
+        "process": "253510200120165",
+        "registration": "125680034"
+      },
+      "risk": "YELLOW",
+      "group": "expectorante",
+      "use": "tosse com catarro",
+      "substances": [
+        "carbocisteína"
+      ],
+      "avoidIf": [
+        "stomach_ulcer"
+      ],
+      "interactsWith": [],
+      "cautionElderly": false,
+      "simulated": {
+        "priceCents": 2107,
+        "inStock": true
+      },
+      "pricing": {
+        "source": "CMED",
+        "publishedAt": "2026-10-09",
+        "icms": 18,
+        "presentation": "20 MG/ML XPE CT FR PLAS OPC X 100 ML + CP MED",
+        "ean": "7898148293339",
+        "registration13": "1256800340055"
+      }
+    },
+    {
+      "id": "med-173329",
+      "name": "Ambroxmel",
+      "company": "Cimed",
+      "regulatory": "Similar",
+      "tarja": [
+        1
+      ],
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_MEDICAMENTOS",
+        "process": "25351010850200318",
+        "registration": "143810087"
+      },
+      "risk": "YELLOW",
+      "group": "expectorante",
+      "use": "tosse com catarro",
+      "substances": [
+        "ambroxol"
+      ],
+      "avoidIf": [],
+      "interactsWith": [],
+      "cautionElderly": false,
+      "simulated": {
+        "priceCents": 2741,
+        "inStock": true
+      },
+      "pricing": {
+        "source": "CMED",
+        "publishedAt": "2026-10-09",
+        "icms": 18,
+        "presentation": "3 MG/ML XPE CT FR PLAS PET AMB X 120 ML + COP (SBR MEL)",
+        "ean": "7896523207667",
+        "registration13": "1438100870153"
+      }
+    },
+    {
+      "id": "med-2720454",
+      "name": "Aires",
+      "company": "Eurofarma Laboratorios",
+      "regulatory": "Similar",
+      "tarja": [
+        1
+      ],
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_MEDICAMENTOS",
+        "process": "25351049681202198",
+        "registration": "100431371"
+      },
+      "risk": "YELLOW",
+      "group": "expectorante",
+      "use": "tosse com catarro",
+      "substances": [
+        "acetilcisteína"
+      ],
+      "avoidIf": [
+        "asthma",
+        "stomach_ulcer"
+      ],
+      "interactsWith": [],
+      "cautionElderly": false,
+      "simulated": {
+        "priceCents": 10682,
+        "inStock": true
+      },
+      "pricing": {
+        "source": "CMED",
+        "publishedAt": "2026-10-09",
+        "icms": 18,
+        "presentation": "600 MG GRAN CT 16 ENV PAPEL AL POLIET X 5 G",
+        "ean": "7891317013783",
+        "registration13": "1004313710031"
+      }
+    },
+    {
+      "id": "med-338823",
+      "name": "Fluibron",
+      "company": "Chiesi Farmacêutica",
+      "regulatory": "Similar",
+      "tarja": [
+        1
+      ],
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_MEDICAMENTOS",
+        "process": "2500001185383",
+        "registration": "100580039"
+      },
+      "risk": "YELLOW",
+      "group": "expectorante",
+      "use": "tosse com catarro",
+      "substances": [
+        "ambroxol"
+      ],
+      "avoidIf": [],
+      "interactsWith": [],
+      "cautionElderly": false,
+      "simulated": {
+        "priceCents": 2829,
+        "inStock": true
+      },
+      "pricing": {
+        "source": "CMED",
+        "publishedAt": "2026-10-09",
+        "icms": 18,
+        "presentation": "7,5 MG/ML SOL OR CT FR VD AMB X 50 ML + CGT",
+        "ean": "7896672201097",
+        "registration13": "1005800390050"
+      }
+    },
+    {
+      "id": "med-3563998",
+      "name": "Flucistein",
+      "company": "União Química Farmacêutica Nacional",
+      "regulatory": "Similar",
+      "tarja": [
+        1
+      ],
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_MEDICAMENTOS",
+        "process": "25351333310202272",
+        "registration": "104971505"
+      },
+      "risk": "YELLOW",
+      "group": "expectorante",
+      "use": "tosse com catarro",
+      "substances": [
+        "acetilcisteína"
+      ],
+      "avoidIf": [
+        "asthma",
+        "stomach_ulcer"
+      ],
+      "interactsWith": [],
+      "cautionElderly": false,
+      "simulated": {
+        "priceCents": 4108,
+        "inStock": true
+      },
+      "pricing": {
+        "source": "CMED",
+        "publishedAt": "2026-10-09",
+        "icms": 18,
+        "presentation": "20 MG/ML XPE CT FR VD AMB X 100 ML + COP",
+        "ean": "7896006268666",
+        "registration13": "1049715050018"
+      }
+    },
+    {
+      "id": "med-3782302",
+      "name": "Mucbe",
+      "company": "Kymberg Farmaceutica",
+      "regulatory": "Similar",
+      "tarja": [
+        1
+      ],
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_MEDICAMENTOS",
+        "process": "25351448425202422",
+        "registration": "196240012"
+      },
+      "risk": "YELLOW",
+      "group": "expectorante",
+      "use": "tosse com catarro",
+      "substances": [
+        "carbocisteína"
+      ],
+      "avoidIf": [
+        "stomach_ulcer"
+      ],
+      "interactsWith": [],
+      "cautionElderly": false,
+      "simulated": {
+        "priceCents": 3270,
+        "inStock": true
+      },
+      "pricing": {
+        "source": "CMED",
+        "publishedAt": "2026-10-09",
+        "icms": 18,
+        "presentation": "20 MG/ML XPE CT FR PLAS OPC X 100 ML + CP MED",
+        "ean": "7891066018589",
+        "registration13": "1962400120057"
+      }
+    },
+    {
+      "id": "med-3855321",
+      "name": "Especbac",
+      "company": "Prati Donaduzzi & Cia",
+      "regulatory": "Similar",
+      "tarja": [
+        1
+      ],
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_MEDICAMENTOS",
+        "process": "25351401594202407",
+        "registration": "125680371"
+      },
+      "risk": "YELLOW",
+      "group": "expectorante",
+      "use": "tosse com catarro",
+      "substances": [
+        "ambroxol"
+      ],
+      "avoidIf": [],
+      "interactsWith": [],
+      "cautionElderly": false,
+      "simulated": {
+        "priceCents": 1406,
+        "inStock": true
+      },
+      "pricing": {
+        "source": "CMED",
+        "publishedAt": "2026-10-09",
+        "icms": 18,
+        "presentation": "3 MG/ML XPE CT FR PLAS OPC X 100 ML + COP",
+        "ean": "7899547557817",
+        "registration13": "1256803710155"
+      }
+    },
+    {
+      "id": "med-407351",
+      "name": "Acetilcisteína",
+      "company": "União Química Farmacêutica Nacional",
+      "regulatory": "Genérico",
+      "tarja": [
+        1
+      ],
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_MEDICAMENTOS",
+        "process": "25351078967200561",
+        "registration": "104970006"
+      },
+      "risk": "YELLOW",
+      "group": "expectorante",
+      "use": "tosse com catarro",
+      "substances": [
+        "acetilcisteína"
+      ],
+      "avoidIf": [
+        "asthma",
+        "stomach_ulcer"
+      ],
+      "interactsWith": [],
+      "cautionElderly": false,
+      "simulated": {
+        "priceCents": 3635,
+        "inStock": true
+      },
+      "pricing": {
+        "source": "CMED",
+        "publishedAt": "2026-10-09",
+        "icms": 18,
+        "presentation": "20 MG/ML XPE CT FR VD AMB X 120 ML + COP",
+        "ean": "7896006210221",
+        "registration13": "1049700060055"
+      }
+    },
+    {
+      "id": "med-3586509",
+      "name": "Pastilhas Cepacol",
+      "company": "Cosmed Medicamentos",
+      "regulatory": "Similar",
+      "tarja": [
+        1
+      ],
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_MEDICAMENTOS",
+        "process": "25351629847202235",
+        "registration": "178171001"
+      },
+      "risk": "YELLOW",
+      "group": "garganta",
+      "use": "dor e inflamação na garganta",
+      "substances": [
+        "benzidamina"
+      ],
+      "avoidIf": [
+        "asthma"
+      ],
+      "interactsWith": [],
+      "cautionElderly": false,
+      "simulated": {
+        "priceCents": 1739,
+        "inStock": true
+      },
+      "pricing": {
+        "source": "CMED",
+        "publishedAt": "2026-10-09",
+        "icms": 18,
+        "presentation": "3 MG PAS DURA CT BL AL PLAS PVC/PCTFE TRANS X 12 (SBR MEL LIMÃO)",
+        "ean": "7896094931398",
+        "registration13": "1781710010016"
+      }
+    },
+    {
+      "id": "med-363386",
+      "name": "Flogoral",
+      "company": "Aché Laboratórios Farmacêuticos",
+      "regulatory": "Novo",
+      "tarja": [
+        1
+      ],
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_MEDICAMENTOS",
+        "process": "25351067115200386",
+        "registration": "105730313"
+      },
+      "risk": "YELLOW",
+      "group": "garganta",
+      "use": "dor e inflamação na garganta",
+      "substances": [
+        "benzidamina"
+      ],
+      "avoidIf": [
+        "asthma"
+      ],
+      "interactsWith": [],
+      "cautionElderly": false,
+      "simulated": {
+        "priceCents": 319,
+        "inStock": true
+      },
+      "pricing": {
+        "source": "CMED",
+        "publishedAt": "2026-10-09",
+        "icms": 18,
+        "presentation": "3,0 MG PAS DURA CT STR PAP/PEBD/AL/PEBD X 2 (SABOR MENTA)",
+        "ean": "7896658007781",
+        "registration13": "1057303130538"
+      }
+    },
+    {
+      "id": "med-3929757",
+      "name": "Tabs",
+      "company": "Brainfarma Química Farmacêutica",
+      "regulatory": "Similar",
+      "tarja": [
+        1
+      ],
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_MEDICAMENTOS",
+        "process": "25351018525202690",
+        "registration": "155840719"
+      },
+      "risk": "YELLOW",
+      "group": "garganta",
+      "use": "dor e inflamação na garganta",
+      "substances": [
+        "benzidamina"
+      ],
+      "avoidIf": [
+        "asthma"
+      ],
+      "interactsWith": [],
+      "cautionElderly": false,
+      "simulated": {
+        "priceCents": 2385,
+        "inStock": true
+      },
+      "pricing": {
+        "source": "CMED",
+        "publishedAt": "2026-10-09",
+        "icms": 18,
+        "presentation": "3 MG PAS DURA CT BL AL PLAS PVC/PCTFE TRANS X 12 (SABOR MENTA LIMÃO)",
+        "ean": "7896714296746",
+        "registration13": "1558407190014"
+      }
+    },
+    {
+      "id": "med-1231499",
+      "name": "Calmasyn",
+      "company": "Cifarma Científica Farmacêutica",
+      "regulatory": "Fitoterápico",
+      "tarja": [
+        1
+      ],
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_MEDICAMENTOS",
+        "process": "25351655158201591",
+        "registration": "115600201"
+      },
+      "risk": "YELLOW",
+      "group": "sono",
+      "use": "sono leve e tensão (pode dar sonolência)",
+      "substances": [
+        "passiflora"
+      ],
+      "avoidIf": [],
+      "interactsWith": [
+        "sedative"
+      ],
+      "cautionElderly": true,
+      "simulated": {
+        "priceCents": 4896,
+        "inStock": true
+      },
+      "pricing": {
+        "source": "CMED",
+        "publishedAt": "2026-10-09",
+        "icms": 18,
+        "presentation": "300 MG COM REV CT BL AL PLAS ACLAR TRANS X 20",
+        "ean": "7898495608862",
+        "registration13": "1156002010043"
+      }
+    },
+    {
+      "id": "med-1243903",
+      "name": "Fiquezen",
+      "company": "Medquimica Farmaceutica",
+      "regulatory": "Fitoterápico",
+      "tarja": [
+        1
+      ],
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_MEDICAMENTOS",
+        "process": "25351182474201849",
+        "registration": "109170118"
+      },
+      "risk": "YELLOW",
+      "group": "sono",
+      "use": "sono leve e tensão (pode dar sonolência)",
+      "substances": [
+        "passiflora"
+      ],
+      "avoidIf": [],
+      "interactsWith": [
+        "sedative"
+      ],
+      "cautionElderly": true,
+      "simulated": {
+        "priceCents": 3344,
+        "inStock": true
+      },
+      "pricing": {
+        "source": "CMED",
+        "publishedAt": "2026-10-09",
+        "icms": 18,
+        "presentation": "260 MG COM REV CT BL AL PLAS PVDC TRANS X 20",
+        "ean": "7896862990176",
+        "registration13": "1091701180012"
+      }
+    },
+    {
+      "id": "med-889514",
+      "name": "Pasalix Pi",
+      "company": "Marjan",
+      "regulatory": "Fitoterápico",
+      "tarja": [
+        1
+      ],
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_MEDICAMENTOS",
+        "process": "25351691189201242",
+        "registration": "101550246"
+      },
+      "risk": "YELLOW",
+      "group": "sono",
+      "use": "sono leve e tensão (pode dar sonolência)",
+      "substances": [
+        "passiflora"
+      ],
+      "avoidIf": [],
+      "interactsWith": [
+        "sedative"
+      ],
+      "cautionElderly": true,
+      "simulated": {
+        "priceCents": 1111,
+        "inStock": true
+      },
+      "pricing": {
+        "source": "CMED",
+        "publishedAt": "2026-10-09",
+        "icms": 18,
+        "presentation": "500 MG COM REV CT BL AL PLAS PVC/PE/PVDC TRANS X 4",
+        "ean": "7896226110196",
+        "registration13": "1015502460168"
+      }
+    },
+    {
+      "id": "med-1014855",
+      "name": "Losartana Potássica + Hidroclorotiazida",
+      "company": "Geolab Farmacêutica",
+      "regulatory": "Genérico",
+      "tarja": [
+        2
+      ],
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_MEDICAMENTOS",
+        "process": "25351001085201516",
+        "registration": "154230299"
+      },
+      "risk": "RED",
+      "substances": [
+        "losartana potassica",
+        "hidroclorotiazida"
+      ],
+      "avoidIf": [],
+      "interactsWith": [],
+      "cautionElderly": false,
+      "simulated": {
+        "priceCents": 5476,
+        "inStock": true
+      },
+      "pricing": {
+        "source": "CMED",
+        "publishedAt": "2026-10-09",
+        "icms": 18,
+        "presentation": "(50,0 +12,5) MG COM REV CT BL AL PLAS PVC OPC  X 30",
+        "ean": "7899095253834",
+        "registration13": "1542302990030"
+      }
+    },
+    {
+      "id": "med-1063988",
+      "name": "Omeprazol",
+      "company": "Cifarma Científica Farmacêutica",
+      "regulatory": "Genérico",
+      "tarja": [
+        2
+      ],
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_MEDICAMENTOS",
+        "process": "25351662339201459",
+        "registration": "115600184"
+      },
+      "risk": "RED",
+      "substances": [
+        "omeprazol"
+      ],
+      "avoidIf": [],
+      "interactsWith": [],
+      "cautionElderly": false,
+      "simulated": {
+        "priceCents": 2991,
+        "inStock": true
+      },
+      "pricing": {
+        "source": "CMED",
+        "publishedAt": "2026-10-09",
+        "icms": 18,
+        "presentation": "20 MG CAP DURA LIB RETARD CT BL AL PLAS PVC/PVDC TRANS  X 30",
+        "ean": "7898495604499",
+        "registration13": "1156001840204"
+      }
+    },
+    {
+      "id": "med-1091900",
+      "name": "Policlavumoxil",
+      "company": "Ems",
+      "regulatory": "Similar",
+      "tarja": [
+        3
+      ],
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_MEDICAMENTOS",
+        "process": "25351521145201585",
+        "registration": "102351145"
+      },
+      "risk": "RED",
+      "substances": [
+        "amoxicilina tri-hidratada",
+        "clavulanato de potassio"
+      ],
+      "avoidIf": [],
+      "interactsWith": [],
+      "cautionElderly": false,
+      "simulated": {
+        "priceCents": 15331,
+        "inStock": true
+      },
+      "pricing": {
+        "source": "CMED",
+        "publishedAt": "2026-10-09",
+        "icms": 18,
+        "presentation": "500 MG + 125 MG COM REV CT BL AL AL X 12",
+        "ean": "7896004703718",
+        "registration13": "1023511450014"
+      }
+    },
+    {
+      "id": "med-1092427",
+      "name": "Policlavumoxil Bd",
+      "company": "Ems",
+      "regulatory": "Similar",
+      "tarja": [
+        3
+      ],
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_MEDICAMENTOS",
+        "process": "25351521139201528",
+        "registration": "102351144"
+      },
+      "risk": "RED",
+      "substances": [
+        "amoxicilina",
+        "clavulanato de potassio"
+      ],
+      "avoidIf": [],
+      "interactsWith": [],
+      "cautionElderly": false,
+      "simulated": {
+        "priceCents": 13715,
+        "inStock": true
+      },
+      "pricing": {
+        "source": "CMED",
+        "publishedAt": "2026-10-09",
+        "icms": 18,
+        "presentation": "(80 + 11,4) MG/ML PÓ SUS OR CT FR PLAS OPC X 70 ML + SER DOS + COP",
+        "ean": "7896004704487",
+        "registration13": "1023511440027"
+      }
+    },
+    {
+      "id": "med-1137626",
+      "name": "Mezolium",
+      "company": "Germed Farmaceutica",
+      "regulatory": "Similar",
+      "tarja": [
+        2
+      ],
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_MEDICAMENTOS",
+        "process": "25351396184201619",
+        "registration": "105830843"
+      },
+      "risk": "RED",
+      "substances": [
+        "esomeprazol magnesico tri-hidratado"
+      ],
+      "avoidIf": [],
+      "interactsWith": [],
+      "cautionElderly": false,
+      "simulated": {
+        "priceCents": 13850,
+        "inStock": true
+      },
+      "pricing": {
+        "source": "CMED",
+        "publishedAt": "2026-10-09",
+        "icms": 18,
+        "presentation": "20 MG COM REV LIB RETARD CT BL AL AL X 15",
+        "ean": "7896004784182",
+        "registration13": "1058308430090"
+      }
+    },
+    {
+      "id": "med-1142894",
+      "name": "Cloridrato de Fluoxetina",
+      "company": "Medquimica Farmaceutica",
+      "regulatory": "Genérico",
+      "tarja": [
+        3
+      ],
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_MEDICAMENTOS",
+        "process": "25351445087201667",
+        "registration": "109170103"
+      },
+      "risk": "RED",
+      "substances": [
+        "cloridrato de fluoxetina"
+      ],
+      "avoidIf": [],
+      "interactsWith": [],
+      "cautionElderly": false,
+      "simulated": {
+        "priceCents": 5855,
+        "inStock": true
+      },
+      "pricing": {
+        "source": "CMED",
+        "publishedAt": "2026-10-09",
+        "icms": 18,
+        "presentation": "20 MG CAP DURA BL AL PLAS TRANS X 30",
+        "ean": "7896862970789",
+        "registration13": "1091701030029"
+      }
+    },
+    {
+      "id": "med-1164903",
+      "name": "Amoxicilina",
+      "company": "Germed Farmaceutica",
+      "regulatory": "Genérico",
+      "tarja": [
+        3
+      ],
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_MEDICAMENTOS",
+        "process": "25351142178201724",
+        "registration": "105830895"
+      },
+      "risk": "RED",
+      "substances": [
+        "amoxicilina tri-hidratada"
+      ],
+      "avoidIf": [],
+      "interactsWith": [],
+      "cautionElderly": false,
+      "simulated": {
+        "priceCents": 8303,
+        "inStock": true
+      },
+      "pricing": {
+        "source": "CMED",
+        "publishedAt": "2026-10-09",
+        "icms": 18,
+        "presentation": "875 MG COM REV CT BL AL AL X 14",
+        "ean": "7896004710501",
+        "registration13": "1058308950027"
+      }
+    },
+    {
+      "id": "med-3565655",
+      "name": "Esomeprazol Magnésico Tri-hidratado",
+      "company": "Multilab Farmaceuticos",
+      "regulatory": "Genérico",
+      "tarja": [
+        2
+      ],
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_MEDICAMENTOS",
+        "process": "25351068277202202",
+        "registration": "118190463"
+      },
+      "risk": "RED",
+      "substances": [
+        "esomeprazol magnesico tri-hidratado"
+      ],
+      "avoidIf": [],
+      "interactsWith": [],
+      "cautionElderly": false,
+      "simulated": {
+        "priceCents": 8509,
+        "inStock": true
+      },
+      "pricing": {
+        "source": "CMED",
+        "publishedAt": "2026-10-09",
+        "icms": 18,
+        "presentation": "20 MG COM REV LIB RETARD CT BL AL AL X 14",
+        "ean": "7895296128032",
+        "registration13": "1181904630021"
+      }
+    },
+    {
+      "id": "med-3613664",
+      "name": "Vildagliptina + Cloridrato de Metformina",
+      "company": "Natcofarma",
+      "regulatory": "Genérico",
+      "tarja": [
+        2
+      ],
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_MEDICAMENTOS",
+        "process": "25351284880202311",
+        "registration": "182610029"
+      },
+      "risk": "RED",
+      "substances": [
+        "vildagliptina",
+        "cloridrato de metformina"
+      ],
+      "avoidIf": [],
+      "interactsWith": [],
+      "cautionElderly": false,
+      "simulated": {
+        "priceCents": 16005,
+        "inStock": true
+      },
+      "pricing": {
+        "source": "CMED",
+        "publishedAt": "2026-10-09",
+        "icms": 18,
+        "presentation": "(50 + 1000) MG COM REV CT BL AL AL X 56",
+        "ean": "7898565165974",
+        "registration13": "1826100290264"
+      }
+    },
+    {
+      "id": "med-3736083",
+      "name": "Sinvascor Eze",
+      "company": "Laboratórios Baldacci",
+      "regulatory": "Similar",
+      "tarja": [
+        2
+      ],
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_MEDICAMENTOS",
+        "process": "25351284619202493",
+        "registration": "101460091"
+      },
+      "risk": "RED",
+      "substances": [
+        "ezetimiba",
+        "sinvastatina"
+      ],
+      "avoidIf": [],
+      "interactsWith": [],
+      "cautionElderly": false,
+      "simulated": {
+        "priceCents": 12293,
+        "inStock": true
+      },
+      "pricing": {
+        "source": "CMED",
+        "publishedAt": "2026-10-09",
+        "icms": 18,
+        "presentation": "(10 + 20) MG COM CT BL AL AL X 20",
+        "ean": "7897851260225",
+        "registration13": "1014600910070"
+      }
+    },
+    {
+      "id": "med-3810659",
+      "name": "Amoxicilina + Clavulanato de Potássio",
+      "company": "Sanofi Medley Farmacêutica",
+      "regulatory": "Genérico",
+      "tarja": [
+        3
+      ],
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_MEDICAMENTOS",
+        "process": "25351041301202509",
+        "registration": "183260508"
+      },
+      "risk": "RED",
+      "substances": [
+        "amoxicilina tri-hidratada",
+        "clavulanato de potassio"
+      ],
+      "avoidIf": [],
+      "interactsWith": [],
+      "cautionElderly": false,
+      "simulated": {
+        "priceCents": 7911,
+        "inStock": true
+      },
+      "pricing": {
+        "source": "CMED",
+        "publishedAt": "2026-10-09",
+        "icms": 18,
+        "presentation": "(80,0 + 11,4) MG/ML PO SUS OR CT FR VD AMB X 70 ML + SER DOS",
+        "ean": "7896422527521",
+        "registration13": "1832605080016"
+      }
+    },
+    {
+      "id": "med-3880367",
+      "name": "Apluc",
+      "company": "Prati Donaduzzi & Cia",
+      "regulatory": "Similar",
+      "tarja": [
+        3
+      ],
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_MEDICAMENTOS",
+        "process": "25351171452202582",
+        "registration": "125680387"
+      },
+      "risk": "RED",
+      "substances": [
+        "amoxicilina tri-hidratada"
+      ],
+      "avoidIf": [],
+      "interactsWith": [],
+      "cautionElderly": false,
+      "simulated": {
+        "priceCents": 1767,
+        "inStock": true
+      },
+      "pricing": {
+        "source": "CMED",
+        "publishedAt": "2026-10-09",
+        "icms": 18,
+        "presentation": "500 MG CAP DURA CT BL AL PLAS TRANS X 12",
+        "ean": "7899547564167",
+        "registration13": "1256803870012"
+      }
+    },
+    {
+      "id": "med-567856",
+      "name": "Branta",
+      "company": "Torrent",
+      "regulatory": "Novo",
+      "tarja": [
+        2
+      ],
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_MEDICAMENTOS",
+        "process": "25351029898200723",
+        "registration": "105250032"
+      },
+      "risk": "RED",
+      "substances": [
+        "losartana potassica",
+        "besilato de anlodipino"
+      ],
+      "avoidIf": [],
+      "interactsWith": [],
+      "cautionElderly": false,
+      "simulated": {
+        "priceCents": 18381,
+        "inStock": true
+      },
+      "pricing": {
+        "source": "CMED",
+        "publishedAt": "2026-10-09",
+        "icms": 18,
+        "presentation": "(50,0 + 5,0) MG COM REV CT BL AL/AL X 30",
+        "ean": "8902220107649",
+        "registration13": "1052500320037"
+      }
+    },
+    {
+      "id": "med-617533",
+      "name": "Meritor",
+      "company": "Aché Laboratórios Farmacêuticos",
+      "regulatory": "Novo",
+      "tarja": [
+        2
+      ],
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_MEDICAMENTOS",
+        "process": "25351308145200781",
+        "registration": "105730377"
+      },
+      "risk": "RED",
+      "substances": [
+        "glimepirida",
+        "cloridrato de metformina"
+      ],
+      "avoidIf": [],
+      "interactsWith": [],
+      "cautionElderly": false,
+      "simulated": {
+        "priceCents": 4481,
+        "inStock": true
+      },
+      "pricing": {
+        "source": "CMED",
+        "publishedAt": "2026-10-09",
+        "icms": 18,
+        "presentation": "2 MG + 1000 MG COM REV CT BL AL PLAS PVC TRANS X 10",
+        "ean": "7896658001482",
+        "registration13": "1057303770014"
+      }
+    },
+    {
+      "id": "med-7869",
+      "name": "Noctiden",
+      "company": "Biolab Sanus Farmacêutica",
+      "regulatory": "Similar",
+      "tarja": [
+        4
+      ],
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_MEDICAMENTOS",
+        "process": "253510159820021",
+        "registration": "109740129"
+      },
+      "risk": "RED",
+      "substances": [
+        "hemitartarato de zolpidem"
+      ],
+      "avoidIf": [],
+      "interactsWith": [],
+      "cautionElderly": false,
+      "simulated": {
+        "priceCents": 3934,
+        "inStock": true
+      },
+      "pricing": {
+        "source": "CMED",
+        "publishedAt": "2026-10-09",
+        "icms": 18,
+        "presentation": "10 MG COM REV CT BL AL PLAS AMB X 10",
+        "ean": "7896112425137",
+        "registration13": "1097401290016"
+      }
+    },
+    {
+      "id": "med-895591",
+      "name": "Alprazolam",
+      "company": "Aurobindo Pharma Farmacêutica Limitada",
+      "regulatory": "Genérico",
+      "tarja": [
+        4
+      ],
+      "source": {
+        "dataset": "ANVISA TA_CONSULTA_MEDICAMENTOS",
+        "process": "25351291487201355",
+        "registration": "151670059"
+      },
+      "risk": "RED",
+      "substances": [
+        "alprazolam"
+      ],
+      "avoidIf": [],
+      "interactsWith": [],
+      "cautionElderly": false,
+      "simulated": {
+        "priceCents": 1493,
+        "inStock": true
+      },
+      "pricing": {
+        "source": "CMED",
+        "publishedAt": "2026-10-09",
+        "icms": 18,
+        "presentation": "0,25 MG COM CT BL AL AL X 20",
+        "ean": "7898361885458",
+        "registration13": "1516700590017"
+      }
+    }
+  ]
+}
