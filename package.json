@@ -1,0 +1,39 @@
+{
+  "name": "foradoeixo",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w @ia/web",
+    "dev:api": "npm run dev -w @ia/api",
+    "build": "npm run build -w @ia/web",
+    "test": "npm run test -w @ia/shared && npm run test -w @ia/api && npm run test -w @ia/web",
+    "typecheck": "npm run typecheck -w @ia/shared && npm run typecheck -w @ia/api && npm run typecheck -w @ia/web",
+    "dev:all": "concurrently -n web,api -c blue,green \"npm run dev\" \"npm run dev:api\"",
+    "ai:check": "node --import tsx apps/api/scripts/checkAi.ts",
+    "images:find": "node --import tsx apps/api/scripts/findProductImages.ts",
+    "images:apply": "node --import tsx apps/api/scripts/findProductImages.ts --apply",
+    "start": "node --import tsx apps/api/src/index.ts"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.6.0",
+    "@testing-library/react": "^16.0.0",
+    "@testing-library/user-event": "^14.5.0",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "axe-core": "^4.10.0",
+    "concurrently": "^9.0.0",
+    "jsdom": "^26.0.0",
+    "typescript": "^5.6.0",
+    "vite": "^7.0.0",
+    "vitest": "^3.2.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
