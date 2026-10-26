@@ -1,0 +1,26 @@
+# Exemplo de publicação em UM serviço (site + API no mesmo endereço). Serviços gratuitos "dormem" depois de um tempo parado:
+# abra o endereço uns minutos antes de gravar o vídeo ou apresentar.
+services:
+  - type: web
+    name: ia-commerce-demo
+    runtime: node
+    plan: free
+    buildCommand: npm ci && npm run build
+    startCommand: npm run start
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_VERSION
+        value: 20
+      - key: HOST
+        value: 0.0.0.0
+      # Segredos: preencher no painel da hospedagem (não colocar valores aqui). Sem eles, tudo funciona só por regras.
+      - key: LLM_BASE_URL
+        sync: false
+      - key: LLM_API_KEY
+        sync: false
+      - key: LLM_MODEL
+        sync: false
+      - key: LLM_FALLBACK_MODELS
+        sync: false
+      - key: LLM_REASONING_EFFORT
+        sync: false
