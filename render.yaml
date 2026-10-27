@@ -10,7 +10,7 @@ services:
     healthCheckPath: /api/health
     envVars:
       - key: NODE_VERSION
-        value: 20
+        value: 22
       - key: HOST
         value: 0.0.0.0
       # Segredos: preencher no painel da hospedagem (não colocar valores aqui). Sem eles, tudo funciona só por regras.
